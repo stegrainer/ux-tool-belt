@@ -28,7 +28,7 @@ h1, h2, h3, h5 {
 h4, h6 {
 	font-weight: 200; }
 a {
-	color: #4197d4;
+	color: #39c;
 	text-decoration: none; }
 
 /* Content */
@@ -44,6 +44,8 @@ header, main {
 	padding: 1.5em;
 	text-align: center; }
 
+nav {
+	border-bottom: 1px solid #669; }
 nav ul {
 	display: flex;
 	flex-flow: nowrap; }
@@ -57,13 +59,26 @@ nav a, .tools a {
 	padding: 0.5em;
 	text-align: center;
 	transition: all 0.25s ease-in-out; }
+nav a.active {
+	background: #669;
+	color: #fff; }
 nav a:hover, nav a:focus {
 	background: #336;
 	color: #fff; }
 main section {
 	display: none; }
 section:target {
+	animation: bob 0.25s linear 1;
 	display: block; }
+main > section:last-of-type {
+	display: block; }
+main > section:target ~ section {
+	display: none !important; }
+@keyframes bob {
+	0% { transform: scale(1) translateY(1em); opacity: 0; }
+	50% { transform: scale(1.05); opacity: 0.5; }
+	100% { transform: scale(1) translateY(0); opacity: 1; }
+}
 
 .tools {
 	display: flex;
@@ -75,12 +90,12 @@ section:target {
 .tools a {
 	background: #eee; }
 .tools a:hover, .tools a:focus {
-	background: #4197d4;
+	background: #39c;
 	color: #fff;
 	transform: scale(1.05); }
 
 footer {
-	background: #42487c;
+	background: #336;
 	padding: 1.5em;
 	text-align: center; }
 footer a, footer a {
