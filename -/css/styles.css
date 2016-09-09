@@ -9,6 +9,12 @@ body {
 	font: calc(1em + 1vw)/1.5 'Helvetica Neue', Arial, sans-serif; }
 body * + * {
 	margin-top: 1.5rem; }
+h1, h2 {
+	font-weight: bold;
+	letter-spacing: 2px;
+	text-align: center;
+	text-shadow: 1px 1px 0 #fff, 3px 3px 0 rgba(0,0,0,0.15);
+	text-transform: uppercase; }
 
 /* Content */
 
