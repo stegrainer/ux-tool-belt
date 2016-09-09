@@ -10,11 +10,26 @@ body {
 body * + * {
 	margin-top: 1.5rem; }
 h1, h2 {
-	font-weight: bold;
+	color: #669;
 	letter-spacing: 2px;
 	text-align: center;
-	text-shadow: 1px 1px 0 #fff, 3px 3px 0 rgba(0,0,0,0.15);
+	text-shadow: 1px 1px 0 #fff, 3px 3px 0 rgba(102,102,153,0.25);
 	text-transform: uppercase; }
+h1 {
+	font-size: 4rem; }
+h2 {
+	font-size: 3rem; }
+h3, h4 {
+	font-size: 2rem; }
+h5, h6 {
+	font-size: 1.5rem; }
+h1, h2, h3, h5 {
+	font-weight: bold; }
+h4, h6 {
+	font-weight: 200; }
+a {
+	color: #4197d4;
+	text-decoration: none; }
 
 /* Content */
 
@@ -22,30 +37,55 @@ header, main {
 	margin: 0 auto;
 	width: 90%; }
 .tb:empty:before {
-	border: 1px solid #ccc;
+	border: 1px solid #eee;
 	content: 'Your tool belt is empty.';
 	display: block;
 	margin: 0.75em;
 	padding: 1.5em;
 	text-align: center; }
 
+nav ul {
+	display: flex;
+	flex-flow: nowrap; }
+nav ul > * {
+	flex-basis: 33%;
+	flex-grow: 1;
+	margin: 0; }
+nav a, .tools a {
+	display: block;
+	height: 100%;
+	padding: 0.5em;
+	text-align: center;
+	transition: all 0.25s ease-in-out; }
+nav a:hover, nav a:focus {
+	background: #336;
+	color: #fff; }
+main section {
+	display: none; }
+section:target {
+	display: block; }
+
 .tools {
 	display: flex;
 	flex-flow: row wrap; }
 .tools > * {
-	flex-basis: 6em;
-	flex-grow: 1; }
-.tools > :first-child {
-	margin-top: 1.5rem; }
+	flex-basis: 10em;
+	flex-grow: 1;
+	margin: 0.25em; }
+.tools a {
+	background: #eee; }
+.tools a:hover, .tools a:focus {
+	background: #4197d4;
+	color: #fff;
+	transform: scale(1.05); }
 
 footer {
 	background: #42487c;
 	padding: 1.5em;
 	text-align: center; }
-footer a {
-	color: #fff;
-	opacity: 0.5;
-	text-decoration: none; }
+footer a, footer a {
+	color: #fff !important;
+	opacity: 0.33; }
 footer a:hover, footer a:focus {
 	opacity: 1; }
 
