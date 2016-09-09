@@ -1,0 +1,57 @@
+/* THANKS ERIC! */
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+
+/* General */
+
+* { box-sizing: border-box; }
+body {
+	font: calc(1em + 1vw)/1.5 'Helvetica Neue', Arial, sans-serif; }
+body * + * {
+	margin-top: 1.5rem; }
+
+/* Content */
+
+header, main {
+	margin: 0 auto;
+	width: 90%; }
+.tb:empty:before {
+	border: 1px solid #ccc;
+	content: 'Your tool belt is empty.';
+	display: block;
+	margin: 0.75em;
+	padding: 1.5em;
+	text-align: center; }
+
+.tools {
+	display: flex;
+	flex-flow: row wrap; }
+.tools > * {
+	flex-basis: 6em;
+	flex-grow: 1; }
+.tools > :first-child {
+	margin-top: 1.5rem; }
+
+footer {
+	background: #42487c;
+	padding: 1.5em;
+	text-align: center; }
+footer a {
+	color: #fff;
+	opacity: 0.5;
+	text-decoration: none; }
+footer a:hover, footer a:focus {
+	opacity: 1; }
+
+/* Media Queries */
+
+@media screen and (max-width: 39.9375em) {
+	
+}
+@media screen and (min-width: 40em) {
+	html, body { height: 100%; }
+	.page { min-height: 100%; position: relative; }
+	header, main { width: 80%; }
+	main { padding-bottom: 6em; }
+	footer { bottom: 0; left: 0; position: absolute; width: 100%; }
+}
