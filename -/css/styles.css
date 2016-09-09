@@ -89,7 +89,7 @@ main > section:target ~ section {
 	margin: 0.25em; }
 .tools a {
 	background: #eee; }
-.tools a:hover, .tools a:focus {
+.tools a:hover, .tools a:focus, .tools a:active {
 	background: #39c;
 	color: #fff;
 	transform: scale(1.05); }
