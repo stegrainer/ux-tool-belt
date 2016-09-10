@@ -1,6 +1,6 @@
 /* THANKS ERIC! */
 
-html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}:focus{outline:none;}
 
 /* General */
 
@@ -10,75 +10,85 @@ body {
 body * + * {
 	margin-top: 1.5rem; }
 h1, h2 {
-	color: #669;
 	letter-spacing: 2px;
 	text-align: center;
 	text-shadow: 1px 1px 0 #fff, 3px 3px 0 rgba(102,102,153,0.25);
 	text-transform: uppercase; }
 h1 {
-	font-size: 4rem; }
+	color: #336;
+	font-size: 200%; }
 h2 {
-	font-size: 3rem; }
-h3, h4 {
-	font-size: 2rem; }
+	color: #669;
+	font-size: 150%; }
+h3 {
+	font-size: 125%; }
+h4 {
+	font-size: 112.5%; }
 h5, h6 {
-	font-size: 1.5rem; }
+	font-size: 100%; }
 h1, h2, h3, h5 {
 	font-weight: bold; }
 h4, h6 {
 	font-weight: 200; }
 a {
 	color: #39c;
-	text-decoration: none; }
+	text-decoration: none;
+	transition: all 0.25s ease-in-out; }
 
 /* Content */
 
-header, main {
+header h1, header .tb, main {
 	margin: 0 auto;
 	width: 90%; }
+header {
+	background: #cce6f3;
+	border-bottom: 1px solid #80c0e0;
+	margin-bottom: 0.75em;
+	padding: 0.75em 0; }
 .tb:empty:before {
-	border: 1px solid #eee;
+	background: rgba(255,255,255,0.33);
 	content: 'Your tool belt is empty.';
 	display: block;
 	margin: 0.75em;
 	padding: 1.5em;
 	text-align: center; }
 
-nav {
-	border-bottom: 1px solid #669; }
-nav ul {
-	display: flex;
-	flex-flow: nowrap; }
-nav ul > * {
-	flex-basis: 33%;
-	flex-grow: 1;
-	margin: 0; }
-nav a, .tools a {
+.tabs input, .tabs section {
+	display: none; }
+.tabs label {
+	border-bottom: 1px solid #339;
+	display: block;
+	padding: 0.25em;
+	text-align: center; }
+.tabs a {
 	display: block;
 	height: 100%;
 	padding: 0.5em;
-	text-align: center;
-	transition: all 0.25s ease-in-out; }
-nav a.active {
+	text-align: center; }
+#t3:checked ~ label:nth-of-type(3),
+#t2:checked ~ label:nth-of-type(2),
+#t2:not(:checked) ~ #t3:not(:checked) ~ label:nth-of-type(1) {
 	background: #669;
 	color: #fff; }
-nav a:hover, nav a:focus {
+.tabs label:hover, .tabs label:focus {
 	background: #336;
-	color: #fff; }
-main section {
-	display: none; }
-section:target {
-	animation: bob 0.25s linear 1;
-	display: block; }
-main > section:last-of-type {
-	display: block; }
-main > section:target ~ section {
-	display: none !important; }
+	color: #fff;
+	cursor: pointer; }
+.tabs input:nth-of-type(2):not(:checked) ~ input:nth-of-type(3):not(:checked) ~ section:nth-of-type(1),
+.tabs input:nth-of-type(2):checked ~ section:nth-of-type(2),
+.tabs input:nth-of-type(3):checked ~ section:nth-of-type(3) 
+{
+	animation: bob 0.25s ease-in-out 1;
+  display: block; }
 @keyframes bob {
-	0% { transform: scale(1) translateY(1em); opacity: 0; }
-	50% { transform: scale(1.05); opacity: 0.5; }
-	100% { transform: scale(1) translateY(0); opacity: 1; }
+	0% { transform: translateY(-2em); opacity: 0; }
+	50% { transform: translateY(-1em); opacity: 0.05; }
+	90% { transform: translateY(0.33em); opacity: 1; }
+	97% { transform: translateY(0.16em); opacity: 1; }
+	100% { transform: translateY(0); opacity: 1; }
 }
+.tabs section {
+	padding-top: 1.5em; }
 
 .tools {
 	display: flex;
@@ -107,12 +117,14 @@ footer a:hover, footer a:focus {
 /* Media Queries */
 
 @media screen and (max-width: 39.9375em) {
-	
+	.tabs label { margin: 0; }
 }
 @media screen and (min-width: 40em) {
 	html, body { height: 100%; }
 	.page { min-height: 100%; position: relative; }
-	header, main { width: 80%; }
+	header h1, header .tb, main { width: 80%; }
 	main { padding-bottom: 6em; }
+	.tabs label { float: left; width: calc(100%/3); }
+	.tabs section { clear: both; }
 	footer { bottom: 0; left: 0; position: absolute; width: 100%; }
 }
