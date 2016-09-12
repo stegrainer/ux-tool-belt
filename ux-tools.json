@@ -1,0 +1,47 @@
+[
+	{
+		"index": 1,
+		"name": "Affinity Diagramming",
+		"description": "Also known as the KJ method, you can use affinity diagramming to facilitate group concensus, organize disparate concepts, and establish priorities from subjective, qualitative data.",
+		"links": [
+			{
+				"title": "The KJ-Technique: A Group Process for Establishing Priorities",
+				"url": "https://articles.uie.com/kj_technique/"
+			},
+			{
+				"title": "Affinity Diagrams: Tips and Tricks",
+				"url": "https://medium.com/learning-ux/affinity-diagrams-tips-and-tricks-6225e8c1f0df"
+			},
+			{
+				"title": "Affinity Diagramming",
+				"url": "http://www.usabilitybok.org/affinity-diagram"
+			}
+		],
+		"phase": [
+			"think",
+			"check"
+		]
+	},
+	{
+		"index": 2,
+		"name": "Card Sorting",
+		"description": "",
+		"links": [
+			{
+				"title": "Improving Your Information Architecture With Card Sorting: A Beginner&rsquo;s Guide",
+				"url": "https://www.smashingmagazine.com/2014/10/improving-information-architecture-card-sorting-beginners-guide/"
+			},
+			{
+				"title": "Card sorting: a definitive guide",
+				"url": "http://boxesandarrows.com/card-sorting-a-definitive-guide/"
+			},
+			{
+				"title": "Card Sorting - Usability.gov",
+				"url": "https://www.usability.gov/how-to-and-tools/methods/card-sorting.html"
+			}
+		],
+		"phase": [
+			"think"
+		]
+	}
+]

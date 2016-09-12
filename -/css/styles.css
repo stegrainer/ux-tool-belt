@@ -111,20 +111,25 @@ header {
 	background: #369;
 	transform: scale(1); }
 
-.overlay {
-	background: rgba(0,0,0,0.85);
+.overlay, .overlay > a {
 	height: 100%;
 	left: 0;
 	margin: 0;
 	position: absolute;
 	top: 0;
 	width: 100%; }
+.overlay {
+	background: rgba(0,0,0,0.85); }
+.overlay > a {
+	z-index: 2; }
 .card {
 	background: #fff;
 	box-shadow: 0 0 45px rgba(0,0,0,0.95);
 	color: #333;
 	margin: 1.5em auto;
-	width: 90%; }
+	position: relative;
+	width: 90%;
+	z-index: 3; }
 .card > * {
 	padding: 0 0.75em; }
 .card ul {
@@ -173,6 +178,6 @@ footer a:hover, footer a:focus {
 	main { padding-bottom: 6em; }
 	.tabs label { float: left; width: calc(100%/3); }
 	.tabs section { clear: both; }
-	.card { width: 60%; }
+	.card { max-width: 40rem; width: 60%; }
 	footer { bottom: 0; left: 0; position: absolute; width: 100%; }
 }

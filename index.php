@@ -1,3 +1,9 @@
+<?
+	include '-/inc/functions.php';
+	$tools = getTools();
+	$phases = groupTools($tools);
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -25,6 +31,9 @@
 				<section id="think">
 					<h3>Tools for Thinking</h3>
 					<ul class="tools">
+					<? foreach($phases['think'] as $tool): ?>
+						<li><a href="?tool=<?= $tool->index ?>"><h4><?= $tool->name ?></h4></a></li>
+					<? endforeach; ?>
 						<li><a href="?tool=1"><h4>Affinity Diagramming</h4></a></li>
 						<li><a href="?tool=1"><h4>Card Sorting</h4></a></li>
 						<li><a href="?tool=1"><h4>Content Inventory</h4></a></li>
@@ -46,6 +55,9 @@
 				<section id="make">
 					<h3>Tools for Making</h3>
 					<ul class="tools">
+					<? foreach($phases['make'] as $tool): ?>
+						<li><a href="?tool=<?= $tool->index ?>"><h4><?= $tool->name ?></h4></a></li>
+					<? endforeach; ?>
 						<li><a href="?tool=1"><h4>Animation Prototypes</h4></a></li>
 						<li><a href="?tool=1"><h4>Code Prototypes</h4></a></li>
 						<li><a href="?tool=1"><h4>Element Collages</h4></a></li>
@@ -65,6 +77,9 @@
 				<section id="check">
 					<h3>Tools for Checking</h3>
 					<ul class="tools">
+					<? foreach($phases['check'] as $tool): ?>
+						<li><a href="?tool=<?= $tool->index ?>"><h4><?= $tool->name ?></h4></a></li>
+					<? endforeach; ?>
 						<li><a href="?tool=1"><h4>A/B Testing</h4></a></li>
 						<li><a href="?tool=1"><h4>Analytics</h4></a></li>
 						<li><a href="?tool=1"><h4>Field Testing</h4></a></li>
