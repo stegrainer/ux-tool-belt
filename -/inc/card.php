@@ -3,7 +3,6 @@
 		if($_REQUEST['tool']) {
 			$id = $_REQUEST['tool'];
 			$tool = getTool($id, $tools);
-			print_r($tool);
 		} else {
 			$tool = false;
 		}

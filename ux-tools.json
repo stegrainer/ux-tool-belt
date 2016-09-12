@@ -268,25 +268,42 @@
 	{
 		"index": 13,
 		"name": "Field Testing",
-		"description": "",
+		"description": "When you see people working, playing, or acting where they feel right at home, you can learn a lot more about them than you can in a lab. Field testing lets you observe users where they use the products you make. Simply by paying attention, you can see what else vies for their attention, what their priorities are, and what their habits are.",
 		"links": [
 			{
-				"title": "The KJ-Technique: A Group Process for Establishing Priorities",
-				"url": "https://articles.uie.com/kj_technique/"
+				"title": "Field Studies: The Best Tool to Discover User Needs",
+				"url": "https://articles.uie.com/field_studies/"
+			},
+			{
+				"title": "Field Studies Done Right: Fast and Observational",
+				"url": "https://www.nngroup.com/articles/field-studies-done-right-fast-and-observational/"
+			},
+			{
+				"title": "Usability Testing Demystified",
+				"url": "http://alistapart.com/article/usability-testing-demystified"
 			}
 		],
 		"phase": [
+			"think",
 			"check"
 		]
 	},
 	{
 		"index": 14,
 		"name": "Focus Group",
-		"description": "",
+		"description": "Running concepts past a focus group can be a quick way to get quick reactions from a diverse group of people. Focus groups are great for testing reactions, perceptions, and the potential value, and not very good for observational discovery or testing usability.",
 		"links": [
 			{
-				"title": "The KJ-Technique: A Group Process for Establishing Priorities",
-				"url": "https://articles.uie.com/kj_technique/"
+				"title": "What is a UX Focus Group?",
+				"url": "http://usabilitymatters.com/what-is-a-ux-focus-group/"
+			},
+			{
+				"title": "Do&rsquo;s and Don&rsquo;ts for Focus Groups",
+				"url": "http://www.uxmatters.com/mt/archives/2011/07/dos-and-donts-for-focus-groups.php"
+			},
+			{
+				"title": "The Use and Misuse of Focus Groups",
+				"url": "https://www.nngroup.com/articles/focus-groups/"
 			}
 		],
 		"phase": [
