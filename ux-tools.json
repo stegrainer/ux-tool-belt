@@ -179,11 +179,19 @@
 	{
 		"index": 9,
 		"name": "Design Studio",
-		"description": "",
+		"description": "Design studios happen when you bring together a motley crew from across your team or company, give them an interesting problem to solve, and a very short span of time to come up with as many visual ideas as possible. By quickly sketching out many ideas, critiquing them briefly, then diverging for more ideation, you can come up with many different solutions to a problem to kickstart the creative process.",
 		"links": [
 			{
-				"title": "The KJ-Technique: A Group Process for Establishing Priorities",
-				"url": "https://articles.uie.com/kj_technique/"
+				"title": "Design Studio Workshop: Adding Up the Benefits",
+				"url": "https://articles.uie.com/design_studio_workshop/"
+			},
+			{
+				"title": "How to Run a Design Studio in 90 Minutes or Less",
+				"url": "https://zapier.com/blog/run-a-design-studio/"
+			},
+			{
+				"title": "3 Steps to Running Design Studio Workshops",
+				"url": "http://willowtreeapps.com/blog/3-steps-to-running-design-studio-workshops-best-practices-tips/"
 			}
 		],
 		"phase": [
@@ -193,11 +201,19 @@
 	{
 		"index": 10,
 		"name": "Diary Study",
-		"description": "",
+		"description": "Your users don&rsquo;t exist in a specific moment in time and neither do the problems that necessitate your products. Diary studies help you understand behavior and patterns over longer periods of time, give deeper insight into the customer journey, and help better illuminate user habits.",
 		"links": [
 			{
-				"title": "The KJ-Technique: A Group Process for Establishing Priorities",
-				"url": "https://articles.uie.com/kj_technique/"
+				"title": "Diary Studies: Understanding Long-Term User Behavior and Experiences",
+				"url": "https://www.nngroup.com/articles/diary-studies/"
+			},
+			{
+				"title": "Jumpstart Design Research with a Diary Study",
+				"url": "http://www.uxbooth.com/articles/jumpstart-design-research-with-a-diary-study/"
+			},
+			{
+				"title": "How to Get Feedback Over Time with Diary Studies",
+				"url": "https://www.usertesting.com/blog/2014/06/25/how-to-get-feedback-over-time-with-diary-studies/"
 			}
 		],
 		"phase": [
@@ -208,11 +224,19 @@
 	{
 		"index": 11,
 		"name": "Discovery Research",
-		"description": "",
+		"description": "Observe users in their environment (workplace, home, etc.), interview stakeholders, define the problems you&rsquo;ll be solving, and better empathize with your users. Discovery research helps you decide what problem you&rsquo;ll be solving.",
 		"links": [
 			{
-				"title": "The KJ-Technique: A Group Process for Establishing Priorities",
-				"url": "https://articles.uie.com/kj_technique/"
+				"title": "Start Deep in Discovery",
+				"url": "http://www.uxapprentice.com/discovery/"
+			},
+			{
+				"title": "Interviewing Users",
+				"url": "https://www.nngroup.com/articles/interviewing-users/"
+			},
+			{
+				"title": "Complete Beginner&rsquo;s Guide to UX Research",
+				"url": "http://www.uxbooth.com/articles/complete-beginners-guide-to-design-research/"
 			}
 		],
 		"phase": [
@@ -222,11 +246,19 @@
 	{
 		"index": 12,
 		"name": "Element Collage",
-		"description": "",
+		"description": "The element collage is more specific than style tiles or mood boards, but less tied together than mockups or prototypes. With an element collage, you can design individual components and styles irrespective of their place in the final screen.",
 		"links": [
 			{
-				"title": "The KJ-Technique: A Group Process for Establishing Priorities",
-				"url": "https://articles.uie.com/kj_technique/"
+				"title": "Element Collages",
+				"url": "http://danielmall.com/articles/rif-element-collages/"
+			},
+			{
+				"title": "Element Collages... are FUN!",
+				"url": "https://cloudfour.com/thinks/element-collages-are-fun/"
+			},
+			{
+				"title": "Visual Design Explorations",
+				"url": "http://clearleft.com/thinks/110"
 			}
 		],
 		"phase": [
@@ -461,6 +493,21 @@
 	},
 	{
 		"index": 29,
+		"name": "Product Principles",
+		"description": "",
+		"links": [
+			{
+				"title": "The KJ-Technique: A Group Process for Establishing Priorities",
+				"url": "https://articles.uie.com/kj_technique/"
+			}
+		],
+		"phase": [
+			"think",
+			"check"
+		]
+	},
+	{
+		"index": 30,
 		"name": "Remote Testing",
 		"description": "",
 		"links": [
@@ -474,7 +521,7 @@
 		]
 	},
 	{
-		"index": 30,
+		"index": 31,
 		"name": "Scenario",
 		"description": "",
 		"links": [
@@ -488,7 +535,7 @@
 		]
 	},
 	{
-		"index": 31,
+		"index": 32,
 		"name": "Sitemap",
 		"description": "",
 		"links": [
@@ -503,7 +550,7 @@
 		]
 	},
 	{
-		"index": 32,
+		"index": 33,
 		"name": "Sketch",
 		"description": "",
 		"links": [
@@ -517,7 +564,7 @@
 		]
 	},
 	{
-		"index": 33,
+		"index": 34,
 		"name": "Storyboard",
 		"description": "",
 		"links": [
@@ -531,7 +578,7 @@
 		]
 	},
 	{
-		"index": 34,
+		"index": 35,
 		"name": "Storymapping",
 		"description": "",
 		"links": [
@@ -545,7 +592,7 @@
 		]
 	},
 	{
-		"index": 35,
+		"index": 36,
 		"name": "Style Guide",
 		"description": "",
 		"links": [
@@ -559,7 +606,7 @@
 		]
 	},
 	{
-		"index": 36,
+		"index": 37,
 		"name": "Style Tile",
 		"description": "",
 		"links": [
@@ -573,7 +620,7 @@
 		]
 	},
 	{
-		"index": 37,
+		"index": 38,
 		"name": "Survey",
 		"description": "",
 		"links": [
@@ -588,7 +635,7 @@
 		]
 	},
 	{
-		"index": 38,
+		"index": 39,
 		"name": "User Flow",
 		"description": "",
 		"links": [
@@ -602,7 +649,7 @@
 		]
 	},
 	{
-		"index": 39,
+		"index": 40,
 		"name": "Wireframe",
 		"description": "",
 		"links": [
