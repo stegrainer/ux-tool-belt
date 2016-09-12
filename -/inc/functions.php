@@ -10,6 +10,12 @@ function getTools() {
 }
 
 function groupTools($tools) {
+	$tmpSort = Array();
+	foreach($tools as &$item) {
+		$tmpSort[] = &$item->name;
+	}
+	array_multisort($tmpSort, $tools);
+	
 	foreach($tools as $tool) {
 		foreach($tool->phase as $phase) {
 			$phases[$phase][] = $tool;

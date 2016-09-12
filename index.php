@@ -34,6 +34,7 @@
 					<? foreach($phases['think'] as $tool): ?>
 						<li><a href="?tool=<?= $tool->index ?>"><h4><?= $tool->name ?></h4></a></li>
 					<? endforeach; ?>
+					<!--
 						<li><a href="?tool=1"><h4>Affinity Diagramming</h4></a></li>
 						<li><a href="?tool=1"><h4>Card Sorting</h4></a></li>
 						<li><a href="?tool=1"><h4>Content Inventory</h4></a></li>
@@ -50,6 +51,7 @@
 						<li><a href="?tool=1"><h4>Storymapping</h4></a></li>
 						<li><a href="?tool=1"><h4>Surveys</h4></a></li>
 						<li><a href="?tool=1"><h4>User Flows</h4></a></li>
+					-->
 					</ul>
 				</section>
 				<section id="make">
@@ -58,6 +60,7 @@
 					<? foreach($phases['make'] as $tool): ?>
 						<li><a href="?tool=<?= $tool->index ?>"><h4><?= $tool->name ?></h4></a></li>
 					<? endforeach; ?>
+					<!--
 						<li><a href="?tool=1"><h4>Animation Prototypes</h4></a></li>
 						<li><a href="?tool=1"><h4>Code Prototypes</h4></a></li>
 						<li><a href="?tool=1"><h4>Element Collages</h4></a></li>
@@ -72,6 +75,7 @@
 						<li><a href="?tool=1"><h4>Style Guides</h4></a></li>
 						<li><a href="?tool=1"><h4>Style Tiles</h4></a></li>
 						<li><a href="?tool=1"><h4>Wireframes</h4></a></li>
+					-->
 					</ul>
 				</section>
 				<section id="check">
@@ -80,6 +84,7 @@
 					<? foreach($phases['check'] as $tool): ?>
 						<li><a href="?tool=<?= $tool->index ?>"><h4><?= $tool->name ?></h4></a></li>
 					<? endforeach; ?>
+					<!--
 						<li><a href="?tool=1"><h4>A/B Testing</h4></a></li>
 						<li><a href="?tool=1"><h4>Analytics</h4></a></li>
 						<li><a href="?tool=1"><h4>Field Testing</h4></a></li>
@@ -88,6 +93,7 @@
 						<li><a href="?tool=1"><h4>Heuristic Review</h4></a></li>
 						<li><a href="?tool=1"><h4>Lab Testing</h4></a></li>
 						<li><a href="?tool=1"><h4>Remote Testing</h4></a></li>
+					-->
 					</ul>
 				</section>
 			</div>

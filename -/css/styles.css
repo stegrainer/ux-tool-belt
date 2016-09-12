@@ -38,6 +38,10 @@ a {
 	transition: all 0.25s ease-in-out; }
 a:hover, a:focus {
 	color: #336; }
+strong {
+	font-weight: bold; }
+em {
+	font-style: italic; }
 
 /* Content */
 

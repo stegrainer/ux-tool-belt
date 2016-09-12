@@ -1,6 +1,28 @@
 [
 	{
 		"index": 1,
+		"name": "A/B Testing",
+		"description": "Compare two versions of a webpage or app against specific metrics to test which performs better. Also known as split testing, this technique can help you test which variations of copy, visual style, or layout perform better.",
+		"links": [
+			{
+				"title": "A Beginner&rsquo;s Guide To A/B Testing: An Introduction",
+				"url": "https://blog.kissmetrics.com/ab-testing-introduction/"
+			},
+			{
+				"title": "The Ultimate Guide To A/B Testing",
+				"url": "https://www.smashingmagazine.com/2010/06/the-ultimate-guide-to-a-b-testing/"
+			},
+			{
+				"title": "What is A/B Testing?",
+				"url": "https://www.optimizely.com/ab-testing/"
+			}
+		],
+		"phase": [
+			"check"
+		]
+	},
+	{
+		"index": 2,
 		"name": "Affinity Diagramming",
 		"description": "Also known as the KJ method, you can use affinity diagramming to facilitate group concensus, organize disparate concepts, and establish priorities from subjective, qualitative data.",
 		"links": [
@@ -18,21 +40,65 @@
 			}
 		],
 		"phase": [
+			"think"
+		]
+	},
+	{
+		"index": 3,
+		"name": "Analytics",
+		"description": "By tracking and analyzing usage data for apps and sites, you can make better informed decisions, predict potential future results, and discover areas for improvement. Analytics can tell you what&rsquo;s happened recently or what&rsquo;s happening now, but not necessarily why.",
+		"links": [
+			{
+				"title": "Complete Beginner&rsquo;s Guide to Analytics",
+				"url": "http://www.uxbooth.com/articles/complete-beginners-guide-to-web-analytics-and-measurement/"
+			},
+			{
+				"title": "An Analytics-First Approach to UX, Part 1",
+				"url": "http://www.uxbooth.com/articles/an-analytics-first-approach-to-ux-part-1/"
+			},
+			{
+				"title": "Designing with Analytics",
+				"url": "http://www.uxmatters.com/mt/archives/2015/06/designing-with-analytics.php"
+			}
+		],
+		"phase": [
 			"think",
 			"check"
 		]
 	},
 	{
-		"index": 2,
+		"index": 4,
+		"name": "Animated Prototype",
+		"description": "Animated prototypes help you convey motion, transitions, and interactions more explicitly, giving a more final vision of the feel for your website or app.",
+		"links": [
+			{
+				"title": "How to Get Animations Out of Your Head",
+				"url": "http://scotthurff.com/posts/how-to-get-animations-out-of-your-head"
+			},
+			{
+				"title": "Prototyping Animation with Keynote",
+				"url": "https://robots.thoughtbot.com/animating-with-keynote"
+			},
+			{
+				"title": "A New Mobile UX Design Material",
+				"url": "https://www.smashingmagazine.com/2012/10/motion-and-animation-a-new-mobile-ux-design-material/"
+			}
+		],
+		"phase": [
+			"make"
+		]
+	},
+	{
+		"index": 5,
 		"name": "Card Sorting",
-		"description": "",
+		"description": "Card sorting exercises uncover how your users think about the way content and navigation are organized. In <strong>open card sorting</strong>, you give more power to participants to create the structure and rename both content and categories using what feels natural to them. <strong>Closed card sorting</strong> is helpful to understanding where new content fits in an existing structure.",
 		"links": [
 			{
 				"title": "Improving Your Information Architecture With Card Sorting: A Beginner&rsquo;s Guide",
 				"url": "https://www.smashingmagazine.com/2014/10/improving-information-architecture-card-sorting-beginners-guide/"
 			},
 			{
-				"title": "Card sorting: a definitive guide",
+				"title": "Card Sorting: A Definitive Guide",
 				"url": "http://boxesandarrows.com/card-sorting-a-definitive-guide/"
 			},
 			{
@@ -42,6 +108,511 @@
 		],
 		"phase": [
 			"think"
+		]
+	},
+	{
+		"index": 6,
+		"name": "Code Prototype",
+		"description": "Coding your prototypes can be helpful for testing not just whether a design concept resonates with users, but whether it&rsquo;s technically feasible and how it works on different devices.",
+		"links": [
+			{
+				"title": "Prototyping in Code",
+				"url": "http://www.creativebloq.com/design/prototyping-code-9116762"
+			},
+			{
+				"title": "Building Prototypes in HTML and CSS",
+				"url": "http://www.creativebloq.com/web-design/building-prototypes-html-and-css-9134572"
+			},
+			{
+				"title": "Introduction to Mobile Prototyping with HTML, CSS and JavaScript",
+				"url": "http://abduzeedo.com/introduction-mobile-prototyping-html-css-and-javascript"
+			}
+		],
+		"phase": [
+			"make"
+		]
+	},
+	{
+		"index": 7,
+		"name": "Content Inventory &amp; Audit",
+		"description": "By cataloging the contents of a website or app, your content inventory tells you what content exists, where it can be found, who maintains it, and more. From your inventory, you can run a content audit to determine what stays, what goes, and what needs to be updated.",
+		"links": [
+			{
+				"title": "Doing a Content Inventory (Or, a Mind-Numbingly Detailed Odyssey Through Your Web Site",
+				"url": "http://adaptivepath.org/ideas/doing-content-inventory/"
+			},
+			{
+				"title": "The Content Inventory is Your Friend",
+				"url": "http://blog.braintraffic.com/2009/03/the-content-inventory-is-your-friend/"
+			},
+			{
+				"title": "How to Conduct A Content Audit",
+				"url": "http://uxmastery.com/how-to-conduct-a-content-audit/"
+			}
+		],
+		"phase": [
+			"think"
+		]
+	},
+	{
+		"index": 8,
+		"name": "Design Critique",
+		"description": "Well-run design critiques can uncover problems, smooth rough edges, and identify future opportunities even before running a concept by users. By focusing on whether the design solves a given problem rather than subjective elements, critiques drive a design toward the best possible solution.",
+		"links": [
+			{
+				"title": "How to Run a Design Critique",
+				"url": "http://scottberkun.com/essays/23-how-to-run-a-design-critique/"
+			},
+			{
+				"title": "The Art of the Design Critique",
+				"url": "http://blog.teamtreehouse.com/the-art-of-the-design-critique"
+			},
+			{
+				"title": "Taming the Elephant: Design Critiques with Non-Designers",
+				"url": "https://www.viget.com/articles/design-critiques"
+			}
+		],
+		"phase": [
+			"check"
+		]
+	},
+	{
+		"index": 9,
+		"name": "Design Studio",
+		"description": "",
+		"links": [
+			{
+				"title": "The KJ-Technique: A Group Process for Establishing Priorities",
+				"url": "https://articles.uie.com/kj_technique/"
+			}
+		],
+		"phase": [
+			"think"
+		]
+	},
+	{
+		"index": 10,
+		"name": "Diary Study",
+		"description": "",
+		"links": [
+			{
+				"title": "The KJ-Technique: A Group Process for Establishing Priorities",
+				"url": "https://articles.uie.com/kj_technique/"
+			}
+		],
+		"phase": [
+			"think",
+			"check"
+		]
+	},
+	{
+		"index": 11,
+		"name": "Discovery Research",
+		"description": "",
+		"links": [
+			{
+				"title": "The KJ-Technique: A Group Process for Establishing Priorities",
+				"url": "https://articles.uie.com/kj_technique/"
+			}
+		],
+		"phase": [
+			"think"
+		]
+	},
+	{
+		"index": 12,
+		"name": "Element Collage",
+		"description": "",
+		"links": [
+			{
+				"title": "The KJ-Technique: A Group Process for Establishing Priorities",
+				"url": "https://articles.uie.com/kj_technique/"
+			}
+		],
+		"phase": [
+			"make"
+		]
+	},
+	{
+		"index": 13,
+		"name": "Field Testing",
+		"description": "",
+		"links": [
+			{
+				"title": "The KJ-Technique: A Group Process for Establishing Priorities",
+				"url": "https://articles.uie.com/kj_technique/"
+			}
+		],
+		"phase": [
+			"check"
+		]
+	},
+	{
+		"index": 14,
+		"name": "Focus Group",
+		"description": "",
+		"links": [
+			{
+				"title": "The KJ-Technique: A Group Process for Establishing Priorities",
+				"url": "https://articles.uie.com/kj_technique/"
+			}
+		],
+		"phase": [
+			"think",
+			"check"
+		]
+	},
+	{
+		"index": 15,
+		"name": "Guerilla Testing",
+		"description": "",
+		"links": [
+			{
+				"title": "The KJ-Technique: A Group Process for Establishing Priorities",
+				"url": "https://articles.uie.com/kj_technique/"
+			}
+		],
+		"phase": [
+			"check"
+		]
+	},
+	{
+		"index": 16,
+		"name": "Heatmap",
+		"description": "",
+		"links": [
+			{
+				"title": "The KJ-Technique: A Group Process for Establishing Priorities",
+				"url": "https://articles.uie.com/kj_technique/"
+			}
+		],
+		"phase": [
+			"think",
+			"check"
+		]
+	},
+	{
+		"index": 17,
+		"name": "Heuristic Review",
+		"description": "",
+		"links": [
+			{
+				"title": "The KJ-Technique: A Group Process for Establishing Priorities",
+				"url": "https://articles.uie.com/kj_technique/"
+			}
+		],
+		"phase": [
+			"check"
+		]
+	},
+	{
+		"index": 18,
+		"name": "High-Fidelity Prototype",
+		"description": "",
+		"links": [
+			{
+				"title": "The KJ-Technique: A Group Process for Establishing Priorities",
+				"url": "https://articles.uie.com/kj_technique/"
+			}
+		],
+		"phase": [
+			"make"
+		]
+	},
+	{
+		"index": 19,
+		"name": "Journey Map",
+		"description": "",
+		"links": [
+			{
+				"title": "The KJ-Technique: A Group Process for Establishing Priorities",
+				"url": "https://articles.uie.com/kj_technique/"
+			}
+		],
+		"phase": [
+			"think"
+		]
+	},
+	{
+		"index": 20,
+		"name": "Lab Testing",
+		"description": "",
+		"links": [
+			{
+				"title": "The KJ-Technique: A Group Process for Establishing Priorities",
+				"url": "https://articles.uie.com/kj_technique/"
+			}
+		],
+		"phase": [
+			"check"
+		]
+	},
+	{
+		"index": 21,
+		"name": "Low-Fidelity Prototype",
+		"description": "",
+		"links": [
+			{
+				"title": "The KJ-Technique: A Group Process for Establishing Priorities",
+				"url": "https://articles.uie.com/kj_technique/"
+			}
+		],
+		"phase": [
+			"make"
+		]
+	},
+	{
+		"index": 22,
+		"name": "Markest Research",
+		"description": "",
+		"links": [
+			{
+				"title": "The KJ-Technique: A Group Process for Establishing Priorities",
+				"url": "https://articles.uie.com/kj_technique/"
+			}
+		],
+		"phase": [
+			"think"
+		]
+	},
+	{
+		"index": 23,
+		"name": "Mental Model",
+		"description": "",
+		"links": [
+			{
+				"title": "The KJ-Technique: A Group Process for Establishing Priorities",
+				"url": "https://articles.uie.com/kj_technique/"
+			}
+		],
+		"phase": [
+			"think"
+		]
+	},
+	{
+		"index": 24,
+		"name": "Mockup",
+		"description": "",
+		"links": [
+			{
+				"title": "The KJ-Technique: A Group Process for Establishing Priorities",
+				"url": "https://articles.uie.com/kj_technique/"
+			}
+		],
+		"phase": [
+			"make"
+		]
+	},
+	{
+		"index": 25,
+		"name": "Mood Board",
+		"description": "",
+		"links": [
+			{
+				"title": "The KJ-Technique: A Group Process for Establishing Priorities",
+				"url": "https://articles.uie.com/kj_technique/"
+			}
+		],
+		"phase": [
+			"make"
+		]
+	},
+	{
+		"index": 26,
+		"name": "Paper Prototype",
+		"description": "",
+		"links": [
+			{
+				"title": "The KJ-Technique: A Group Process for Establishing Priorities",
+				"url": "https://articles.uie.com/kj_technique/"
+			}
+		],
+		"phase": [
+			"make"
+		]
+	},
+	{
+		"index": 27,
+		"name": "Pattern Library",
+		"description": "",
+		"links": [
+			{
+				"title": "The KJ-Technique: A Group Process for Establishing Priorities",
+				"url": "https://articles.uie.com/kj_technique/"
+			}
+		],
+		"phase": [
+			"make"
+		]
+	},
+	{
+		"index": 28,
+		"name": "Persona",
+		"description": "",
+		"links": [
+			{
+				"title": "The KJ-Technique: A Group Process for Establishing Priorities",
+				"url": "https://articles.uie.com/kj_technique/"
+			}
+		],
+		"phase": [
+			"think"
+		]
+	},
+	{
+		"index": 29,
+		"name": "Remote Testing",
+		"description": "",
+		"links": [
+			{
+				"title": "The KJ-Technique: A Group Process for Establishing Priorities",
+				"url": "https://articles.uie.com/kj_technique/"
+			}
+		],
+		"phase": [
+			"check"
+		]
+	},
+	{
+		"index": 30,
+		"name": "Scenario",
+		"description": "",
+		"links": [
+			{
+				"title": "The KJ-Technique: A Group Process for Establishing Priorities",
+				"url": "https://articles.uie.com/kj_technique/"
+			}
+		],
+		"phase": [
+			"think"
+		]
+	},
+	{
+		"index": 31,
+		"name": "Sitemap",
+		"description": "",
+		"links": [
+			{
+				"title": "The KJ-Technique: A Group Process for Establishing Priorities",
+				"url": "https://articles.uie.com/kj_technique/"
+			}
+		],
+		"phase": [
+			"think",
+			"make"
+		]
+	},
+	{
+		"index": 32,
+		"name": "Sketch",
+		"description": "",
+		"links": [
+			{
+				"title": "The KJ-Technique: A Group Process for Establishing Priorities",
+				"url": "https://articles.uie.com/kj_technique/"
+			}
+		],
+		"phase": [
+			"make"
+		]
+	},
+	{
+		"index": 33,
+		"name": "Storyboard",
+		"description": "",
+		"links": [
+			{
+				"title": "The KJ-Technique: A Group Process for Establishing Priorities",
+				"url": "https://articles.uie.com/kj_technique/"
+			}
+		],
+		"phase": [
+			"think"
+		]
+	},
+	{
+		"index": 34,
+		"name": "Storymapping",
+		"description": "",
+		"links": [
+			{
+				"title": "The KJ-Technique: A Group Process for Establishing Priorities",
+				"url": "https://articles.uie.com/kj_technique/"
+			}
+		],
+		"phase": [
+			"think"
+		]
+	},
+	{
+		"index": 35,
+		"name": "Style Guide",
+		"description": "",
+		"links": [
+			{
+				"title": "The KJ-Technique: A Group Process for Establishing Priorities",
+				"url": "https://articles.uie.com/kj_technique/"
+			}
+		],
+		"phase": [
+			"make"
+		]
+	},
+	{
+		"index": 36,
+		"name": "Style Tile",
+		"description": "",
+		"links": [
+			{
+				"title": "The KJ-Technique: A Group Process for Establishing Priorities",
+				"url": "https://articles.uie.com/kj_technique/"
+			}
+		],
+		"phase": [
+			"make"
+		]
+	},
+	{
+		"index": 37,
+		"name": "Survey",
+		"description": "",
+		"links": [
+			{
+				"title": "The KJ-Technique: A Group Process for Establishing Priorities",
+				"url": "https://articles.uie.com/kj_technique/"
+			}
+		],
+		"phase": [
+			"think",
+			"check"
+		]
+	},
+	{
+		"index": 38,
+		"name": "User Flow",
+		"description": "",
+		"links": [
+			{
+				"title": "The KJ-Technique: A Group Process for Establishing Priorities",
+				"url": "https://articles.uie.com/kj_technique/"
+			}
+		],
+		"phase": [
+			"think"
+		]
+	},
+	{
+		"index": 39,
+		"name": "Wireframe",
+		"description": "",
+		"links": [
+			{
+				"title": "The KJ-Technique: A Group Process for Establishing Priorities",
+				"url": "https://articles.uie.com/kj_technique/"
+			}
+		],
+		"phase": [
+			"make"
 		]
 	}
 ]
