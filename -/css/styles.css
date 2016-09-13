@@ -5,16 +5,13 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 /* General */
 
 * { box-sizing: border-box; }
-body {
-	color: #333;
-	font: calc(1em + 1vw)/1.5 'Helvetica Neue', Arial, sans-serif;
-	position: relative; }
+body, input {
+	font: calc(1em + 1vw)/1.5 'Helvetica Neue', Arial, sans-serif; }
 body * + * {
 	margin-top: 1.5rem; }
 h1, h2 {
-	letter-spacing: 2px;
-	text-align: center;
-	text-shadow: 1px 1px 0 #fff, 3px 3px 0 rgba(102,102,153,0.25); }
+	font-weight: bold;
+	text-align: center; }
 h1 {
 	color: #336;
 	font-size: 200%; }
@@ -25,13 +22,7 @@ h3 {
 	font-size: 125%; }
 h4 {
 	font-size: 112.5%; }
-h5, h6 {
-	font-size: 100%; }
-h1, h2, h3, h5 {
-	font-weight: bold; }
-h4, h6 {
-	font-weight: 200; }
-main p, .card p, .card ul {
+main p, .card p, .card ul, .card label {
 	font-size: 75%; }
 a {
 	color: #39c;
@@ -151,6 +142,21 @@ header {
 	margin-left: 3em; }
 .card li {
 	margin: 0; }
+.card form {
+	background: #eee;
+	border-top: 1px solid #ddd;
+	text-align: center; }
+.field {
+	float: left;
+	margin: 0;
+	width: 48%; }
+.field:first-of-type {
+	margin-right: 4%; }
+.card input {
+	display: block;
+	margin: 0;
+	text-align: center;
+	width: 100%; }
 .button, button {
 	background: #39c;
 	border: none;
@@ -159,7 +165,7 @@ header {
 	display: inline-block;
 	font-size: 100%;
 	line-height: 1.5;
-	margin: 0 0 0.75em;
+	margin: 0.75em 0;
 	padding: 0.75em 1.5em;
 	text-align: center;
 	text-decoration: none;
