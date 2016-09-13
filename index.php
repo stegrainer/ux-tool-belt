@@ -32,68 +32,24 @@
 					<h3>Tools for Thinking</h3>
 					<ul class="tools">
 					<? foreach($phases['think'] as $tool): ?>
-						<li><a href="?tool=<?= $tool->index ?>"><h4><?= $tool->name ?></h4></a></li>
+						<li><a href="?tool=<?= $tool->index ?>"><p><?= $tool->name ?></p></a></li>
 					<? endforeach; ?>
-					<!--
-						<li><a href="?tool=1"><h4>Affinity Diagramming</h4></a></li>
-						<li><a href="?tool=1"><h4>Card Sorting</h4></a></li>
-						<li><a href="?tool=1"><h4>Content Inventory</h4></a></li>
-						<li><a href="?tool=1"><h4>Design Studios</h4></a></li>
-						<li><a href="?tool=1"><h4>Diary Study</h4></a></li>
-						<li><a href="?tool=1"><h4>Discovery Research</h4></a></li>
-						<li><a href="?tool=1"><h4>Focus Groups</h4></a></li>
-						<li><a href="?tool=1"><h4>Journey Maps</h4></a></li>
-						<li><a href="?tool=1"><h4>Market Research</h4></a></li>
-						<li><a href="?tool=1"><h4>Mental Models</h4></a></li>
-						<li><a href="?tool=1"><h4>Personas</h4></a></li>
-						<li><a href="?tool=1"><h4>Scenarios</h4></a></li>
-						<li><a href="?tool=1"><h4>Storyboards</h4></a></li>
-						<li><a href="?tool=1"><h4>Storymapping</h4></a></li>
-						<li><a href="?tool=1"><h4>Surveys</h4></a></li>
-						<li><a href="?tool=1"><h4>User Flows</h4></a></li>
-					-->
 					</ul>
 				</section>
 				<section id="make">
 					<h3>Tools for Making</h3>
 					<ul class="tools">
 					<? foreach($phases['make'] as $tool): ?>
-						<li><a href="?tool=<?= $tool->index ?>"><h4><?= $tool->name ?></h4></a></li>
+						<li><a href="?tool=<?= $tool->index ?>"><p><?= $tool->name ?></p></a></li>
 					<? endforeach; ?>
-					<!--
-						<li><a href="?tool=1"><h4>Animation Prototypes</h4></a></li>
-						<li><a href="?tool=1"><h4>Code Prototypes</h4></a></li>
-						<li><a href="?tool=1"><h4>Element Collages</h4></a></li>
-						<li><a href="?tool=1"><h4>High-Fidelity Prototypes</h4></a></li>
-						<li><a href="?tool=1"><h4>Low-Fidelity Prototypes</h4></a></li>
-						<li><a href="?tool=1"><h4>Mockups</h4></a></li>
-						<li><a href="?tool=1"><h4>Mood Boards</h4></a></li>
-						<li><a href="?tool=1"><h4>Paper Prototypes</h4></a></li>
-						<li><a href="?tool=1"><h4>Pattern Libraries</h4></a></li>
-						<li><a href="?tool=1"><h4>Sitemaps</h4></a></li>
-						<li><a href="?tool=1"><h4>Sketches</h4></a></li>
-						<li><a href="?tool=1"><h4>Style Guides</h4></a></li>
-						<li><a href="?tool=1"><h4>Style Tiles</h4></a></li>
-						<li><a href="?tool=1"><h4>Wireframes</h4></a></li>
-					-->
 					</ul>
 				</section>
 				<section id="check">
 					<h3>Tools for Checking</h3>
 					<ul class="tools">
 					<? foreach($phases['check'] as $tool): ?>
-						<li><a href="?tool=<?= $tool->index ?>"><h4><?= $tool->name ?></h4></a></li>
+						<li><a href="?tool=<?= $tool->index ?>"><p><?= $tool->name ?></p></a></li>
 					<? endforeach; ?>
-					<!--
-						<li><a href="?tool=1"><h4>A/B Testing</h4></a></li>
-						<li><a href="?tool=1"><h4>Analytics</h4></a></li>
-						<li><a href="?tool=1"><h4>Field Testing</h4></a></li>
-						<li><a href="?tool=1"><h4>Guerilla Testing</h4></a></li>
-						<li><a href="?tool=1"><h4>Heatmaps</h4></a></li>
-						<li><a href="?tool=1"><h4>Heuristic Review</h4></a></li>
-						<li><a href="?tool=1"><h4>Lab Testing</h4></a></li>
-						<li><a href="?tool=1"><h4>Remote Testing</h4></a></li>
-					-->
 					</ul>
 				</section>
 			</div>

@@ -314,11 +314,19 @@
 	{
 		"index": 15,
 		"name": "Guerilla Testing",
-		"description": "",
+		"description": "Get out of the building and talk with potential users on the streets and in the coffee shops. With some planning and a little time with a bunch of diverse users, you can get a good idea of what works and what doesn&rsquo;t.",
 		"links": [
 			{
-				"title": "The KJ-Technique: A Group Process for Establishing Priorities",
-				"url": "https://articles.uie.com/kj_technique/"
+				"title": "The Art of Guerilla Usability Testing",
+				"url": "http://www.uxbooth.com/articles/the-art-of-guerrilla-usability-testing/"
+			},
+			{
+				"title": "7 Step Guide to Guerrilla Usability Testing: DIY Usability Testing Method",
+				"url": "https://userbrain.net/blog/7-step-guide-guerrilla-usability-testing-diy-usability-testing-method"
+			},
+			{
+				"title": "Guerrilla Research Tactics and Tools",
+				"url": "http://www.uxbooth.com/articles/guerrilla-research-tactics-tools/"
 			}
 		],
 		"phase": [
@@ -328,12 +336,21 @@
 	{
 		"index": 16,
 		"name": "Heatmap",
-		"description": "",
+		"description": "Heatmaps help you quickly understand what attracts your users&rsquo; attention on your website or app by turning data into a visual overlay that can illuminate what parts get the most clicks or other interaction.",
 		"links": [
 			{
-				"title": "The KJ-Technique: A Group Process for Establishing Priorities",
-				"url": "https://articles.uie.com/kj_technique/"
+				"title": "Understanding Simple Heat Maps for Smarter UI Design",
+				"url": "https://www.uxpin.com/studio/blog/understanding-simple-heat-maps-smarter-ui-design/"
+			},
+			{
+				"title": "Using Heatmaps to Improve Usability and Conversions",
+				"url": "https://www.sitepoint.com/using-heatmaps-improve-usability-conversions/"
+			},
+			{
+				"title": "Mouse Heatmaps",
+				"url": "http://mattish.com/evidence/method/mouse-heatmaps"
 			}
+			
 		],
 		"phase": [
 			"think",
@@ -342,12 +359,20 @@
 	},
 	{
 		"index": 17,
-		"name": "Heuristic Review",
-		"description": "",
+		"name": "Heuristic Evaluation",
+		"description": "Have an expert (or better, a set of experts) review your app or website against a set of broad principles to identify potential problems and gauge their severity.",
 		"links": [
 			{
-				"title": "The KJ-Technique: A Group Process for Establishing Priorities",
-				"url": "https://articles.uie.com/kj_technique/"
+				"title": "10 Usability Heuristics for User Interface Design",
+				"url": "https://www.nngroup.com/articles/ten-usability-heuristics/"
+			},
+			{
+				"title": "How to Run an Heuristic Evaluation",
+				"url": "http://uxmastery.com/how-to-run-an-heuristic-evaluation/"
+			},
+			{
+				"title": "An Overview of Expert Heuristic Evaluations",
+				"url": "http://www.uxmatters.com/mt/archives/2014/06/an-overview-of-expert-heuristic-evaluations.php"
 			}
 		],
 		"phase": [
@@ -357,11 +382,19 @@
 	{
 		"index": 18,
 		"name": "High-Fidelity Prototype",
-		"description": "",
+		"description": "A high fidelity prototype gives a close facsimile of the production version. It can feel real to users you test with, many clients or stakeholders are more comfortable with it, and it can serve as a starting point for developers to build from.",
 		"links": [
 			{
-				"title": "The KJ-Technique: A Group Process for Establishing Priorities",
-				"url": "https://articles.uie.com/kj_technique/"
+				"title": "Hi-Fi Prototyping: Design is Our Muse, Code is Our Medium",
+				"url": "https://uxmag.com/articles/hi-fi-prototyping"
+			},
+			{
+				"title": "High Fidelity Rapid Prototyping",
+				"url": "http://www.leemunroe.com/high-fidelity-rapid-prototyping/"
+			},
+			{
+				"title": "The Benefits of High Fidelity Prototyping",
+				"url": "https://uxdesign.cc/the-benefits-of-high-fidelity-prototyping-4305a056ffc1"
 			}
 		],
 		"phase": [
@@ -371,11 +404,19 @@
 	{
 		"index": 19,
 		"name": "Journey Map",
-		"description": "",
+		"description": "Journey Maps document a user&rsquo;s experience across multiple touchpoints, from their discovery of the product or service (or even before) to their full engagement with it, including emotional impact. They tell the story of how a user engages with your product over time.",
 		"links": [
 			{
-				"title": "The KJ-Technique: A Group Process for Establishing Priorities",
-				"url": "https://articles.uie.com/kj_technique/"
+				"title": "How to Create a Customer Journey Map",
+				"url": "http://uxmastery.com/how-to-create-a-customer-journey-map/"
+			},
+			{
+				"title": "How to Run a Customer Journey Mapping Workshop",
+				"url": "https://boagworld.com/usability/how-to-run-a-customer-journey-mapping-workshop/"
+			},
+			{
+				"title": "The Value of Customer Journey Maps: A UX Designer&rsquo;s Personal Journey",
+				"url": "http://www.uxmatters.com/mt/archives/2011/09/the-value-of-customer-journey-maps-a-ux-designers-personal-journey.php"
 			}
 		],
 		"phase": [
@@ -385,11 +426,19 @@
 	{
 		"index": 20,
 		"name": "Lab Testing",
-		"description": "",
+		"description": "Testing in a dedicated UX lab can give you more scientifically accurate results and reproducible experiments, but may not be as quick and efficient as other testing methods.",
 		"links": [
 			{
-				"title": "The KJ-Technique: A Group Process for Establishing Priorities",
-				"url": "https://articles.uie.com/kj_technique/"
+				"title": "Lab Usability Testing: What, Why, How Much?",
+				"url": "http://www.kaushik.net/avinash/lab-usability-testing-what-why-how-much/"
+			},
+			{
+				"title": "Streamlining Usability Testing by Avoiding the Lab",
+				"url": "https://articles.uie.com/streamlining_usability/"
+			},
+			{
+				"title": "Traveling Usability Lab",
+				"url": "https://www.nngroup.com/articles/traveling-usability-lab/"
 			}
 		],
 		"phase": [
@@ -399,12 +448,21 @@
 	{
 		"index": 21,
 		"name": "Low-Fidelity Prototype",
-		"description": "",
+		"description": "Get your ideas out of your head and in front of potential users more quickly with low-fidelity prototypes. The lower the fidelity, the more quickly you can test and iterate over new versions.",
 		"links": [
 			{
-				"title": "The KJ-Technique: A Group Process for Establishing Priorities",
-				"url": "https://articles.uie.com/kj_technique/"
+				"title": "The Skeptic&rsquo;s Guide To Low-Fidelity Prototyping",
+				"url": "https://www.smashingmagazine.com/2014/10/the-skeptics-guide-to-low-fidelity-prototyping/"
+			},
+			{
+				"title": "Why Low-Fidelity Prototyping Kicks Butt for Customer-Driven Design",
+				"url": "http://andrewchen.co/why-every-consumer-internet-startup-should-do-more-low-fidelity-prototyping/"
+			},
+			{
+				"title": "A Guide to Prototype Fidelity",
+				"url": "http://sixrevisions.com/user-interface/design-mockup-fidelity/"
 			}
+			
 		],
 		"phase": [
 			"make"
@@ -412,7 +470,7 @@
 	},
 	{
 		"index": 22,
-		"name": "Markest Research",
+		"name": "Market Research",
 		"description": "",
 		"links": [
 			{
