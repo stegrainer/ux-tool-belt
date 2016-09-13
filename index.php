@@ -9,7 +9,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width; initial-scale=1.0">
-	<title>Title</title>
+	<title>UX Project Toolbelt</title>
 	<link rel="stylesheet" href="-/css/styles.css">
 </head>
 
@@ -58,7 +58,9 @@
 			<a href="https://stegrainer.com">Made with care by Ste Grainer.</a>
 		</footer>
 	</div>
+	<div class="modal">
 	<? include '-/inc/card.php' ?>
+	</div>
 <script type="text/javascript" src="-/js/scripts.js"></script>
 </body>
 </html>

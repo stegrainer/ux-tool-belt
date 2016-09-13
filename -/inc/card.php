@@ -10,8 +10,8 @@
 ?>
 
 	<? if($tool): ?>
-	<div class="overlay">
-		<a href="./"></a>
+	<div class="modal-shown">
+		<div class="overlay"><a href="./"></a></div>
 		<div class="card">
 			<h2><?= $tool->name ?></h2>
 			<p>

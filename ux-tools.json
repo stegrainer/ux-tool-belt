@@ -782,11 +782,19 @@
 	{
 		"index": 36,
 		"name": "Style Guide",
-		"description": "",
+		"description": "A good style guide defines the essential reusable reference bits of your product, from visual styles like colors, typography, and graphics to the components of a pattern library. Great style guides also encapsulate written style guides, branding guidelines, and even API/code documentation.",
 		"links": [
 			{
-				"title": "The KJ-Technique: A Group Process for Establishing Priorities",
-				"url": "https://articles.uie.com/kj_technique/"
+				"title": "Style Guide Best Practices",
+				"url": "http://bradfrost.com/blog/post/style-guide-best-practices/"
+			},
+			{
+				"title": "Great UI Design Requires Smart Style Guides",
+				"url": "https://www.uxpin.com/studio/blog/great-ui-design-requires-smart-style-guides/"
+			},
+			{
+				"title": "A Maintainable Style Guide",
+				"url": "http://ianfeather.co.uk/a-maintainable-style-guide/"
 			}
 		],
 		"phase": [
@@ -796,11 +804,19 @@
 	{
 		"index": 37,
 		"name": "Style Tile",
-		"description": "",
+		"description": "Style tiles communicate the essential foundation of a visual brand without conveying specific page layouts. They can spur discussion around visual direction without focusing too much on page-level details early on.",
 		"links": [
 			{
-				"title": "The KJ-Technique: A Group Process for Establishing Priorities",
-				"url": "https://articles.uie.com/kj_technique/"
+				"title": "Style Tiles: A Visual Web Design Process for Clients &amp; the Responsive Web",
+				"url": "http://styletil.es/"
+			},
+			{
+				"title": "Style Tiles and How They Work",
+				"url": "http://alistapart.com/article/style-tiles-and-how-they-work"
+			},
+			{
+				"title": "Style Tiles: An Alternative to Full Design Comps",
+				"url": "http://webdesign.tutsplus.com/articles/style-tiles-an-alternative-to-full-design-comps--webdesign-7232"
 			}
 		],
 		"phase": [
@@ -810,11 +826,19 @@
 	{
 		"index": 38,
 		"name": "Survey",
-		"description": "",
+		"description": "There&rsquo;s nothing better than a survey if you want to get answers to specific questions from a lot of people quickly. Used sparingly, with well-written questions and targeted audiences, surveys can kickstart deep research efforts or build better understanding of the broader audience.",
 		"links": [
 			{
-				"title": "The KJ-Technique: A Group Process for Establishing Priorities",
-				"url": "https://articles.uie.com/kj_technique/"
+				"title": "How to Create an Effective Customer Experience Survey",
+				"url": "http://www.uxbooth.com/articles/how-to-create-a-customer-experience-survey/"
+			},
+			{
+				"title": "Better User Research Through Surveys",
+				"url": "http://uxmastery.com/better-user-research-through-surveys/"
+			},
+			{
+				"title": "How to Quickly Create a Powerful Survey",
+				"url": "http://blog.invisionapp.com/how-to-create-a-survey/"
 			}
 		],
 		"phase": [
@@ -825,11 +849,19 @@
 	{
 		"index": 39,
 		"name": "User Flow",
-		"description": "",
+		"description": "A user flow depicts the step-by-step process of completing a specific task through the screens of your website or app.",
 		"links": [
 			{
-				"title": "The KJ-Technique: A Group Process for Establishing Priorities",
-				"url": "https://articles.uie.com/kj_technique/"
+				"title": "Creating Perfect User Flows for Smooth UX",
+				"url": "https://www.uxpin.com/studio/blog/creating-perfect-user-flows-for-smooth-ux/"
+			},
+			{
+				"title": "Build It With the User in Mind: How to Design User Flow",
+				"url": "http://conversionxl.com/how-to-design-user-flow/"
+			},
+			{
+				"title": "Stop Designing Pages and Start Designing Flows",
+				"url": "https://www.smashingmagazine.com/2012/01/stop-designing-pages-start-designing-flows/"
 			}
 		],
 		"phase": [
@@ -839,11 +871,19 @@
 	{
 		"index": 40,
 		"name": "Wireframe",
-		"description": "",
+		"description": "Wireframes are a lot like blueprints for your pages. They tell you what content will be available, how it&rsquo;s grouped, and where it&rsquo;s laid out without diving deep into visual details like colors, typography, or graphics.",
 		"links": [
 			{
-				"title": "The KJ-Technique: A Group Process for Establishing Priorities",
-				"url": "https://articles.uie.com/kj_technique/"
+				"title": "Wireframes: The Beginner&rsquo;s Guide",
+				"url": "http://theuxreview.co.uk/wireframes-beginners-guide/"
+			},
+			{
+				"title": "What is a Wireframe: Designing Your UX Backbone",
+				"url": "https://www.uxpin.com/studio/ui-design/what-is-a-wireframe-designing-your-ux-backbone/"
+			},
+			{
+				"title": "Wireframing: Tips, Tools, and Techniques (Part 2)",
+				"url": "http://www.uxbooth.com/articles/wireframing-tips-tools-and-techniques-pt-2/"
 			}
 		],
 		"phase": [
