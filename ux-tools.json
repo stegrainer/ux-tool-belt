@@ -471,11 +471,19 @@
 	{
 		"index": 22,
 		"name": "Market Research",
-		"description": "",
+		"description": "Understanding customer wants and preferences is the prime driver of market research, particularly as it relates to monetization. Market research can help you determine whether the experience you&rsquo;re building will help you make money.",
 		"links": [
 			{
-				"title": "The KJ-Technique: A Group Process for Establishing Priorities",
-				"url": "https://articles.uie.com/kj_technique/"
+				"title": "Market Research vs. User Research — Which Should I Use to Understand Customers?",
+				"url": "http://allthingsux.com/market-research-vs-user-research-whats-big-deal/"
+			},
+			{
+				"title": "User (Experience) Research, Design Research, Usability Research, Market Research...",
+				"url": "https://uxmag.com/articles/user-experience-research-design-research-usability-research-market-research"
+			},
+			{
+				"title": "User Research and Market Research: A Tale of Two Awkward Cousins",
+				"url": "http://intuitivecompany.com/we-see/blog-post/user-research-and-market-research-a-tale-of-two-awkward-cousins/"
 			}
 		],
 		"phase": [
@@ -485,11 +493,19 @@
 	{
 		"index": 23,
 		"name": "Mental Model",
-		"description": "",
+		"description": "Mental models are representations of how people think a process or product works. The closer a designer&rsquo;s mental model matches the user&rsquo;s, the more likely it is that the design will work the way a user expects.",
 		"links": [
 			{
-				"title": "The KJ-Technique: A Group Process for Establishing Priorities",
-				"url": "https://articles.uie.com/kj_technique/"
+				"title": "Mental Models and User Experience Design",
+				"url": "https://www.nngroup.com/articles/mental-models/"
+			},
+			{
+				"title": "Mental Models and User Experience",
+				"url": "http://www.uxmatters.com/mt/archives/2016/05/mental-models-and-user-experience.php"
+			},
+			{
+				"title": "The Secret to Designing an Intuitive UX: Match the Mental Model to the Conceptual Model",
+				"url": "https://uxmag.com/articles/the-secret-to-designing-an-intuitive-user-experience"
 			}
 		],
 		"phase": [
@@ -499,11 +515,19 @@
 	{
 		"index": 24,
 		"name": "Mockup",
-		"description": "",
+		"description": "Mockups are used to communicate design details like color, typography, iconography, graphics, and other visual embellishments beyond the basic layout and structure. They represent a static vision of the production website or app, and can be used to create high-fidelity prototypes.",
 		"links": [
 			{
-				"title": "The KJ-Technique: A Group Process for Establishing Priorities",
-				"url": "https://articles.uie.com/kj_technique/"
+				"title": "How to Use Mockups in the UX Design Process",
+				"url": "http://www.creativebloq.com/web-design/use-mockups-21514108"
+			},
+			{
+				"title": "The What, Why, and How of Mockups",
+				"url": "The What, Why, and How of Mockups"
+			},
+			{
+				"title": "Wireframes vs. Mockups: What&rsquo;s the Difference?",
+				"url": "http://uxmovement.com/wireframes/wireframes-vs-mockups-whats-the-difference/"
 			}
 		],
 		"phase": [
@@ -513,11 +537,19 @@
 	{
 		"index": 25,
 		"name": "Mood Board",
-		"description": "",
+		"description": "By pulling design inspiration from existing design elements, mood boards help you define a visual design direction and language early in your project.",
 		"links": [
 			{
-				"title": "The KJ-Technique: A Group Process for Establishing Priorities",
-				"url": "https://articles.uie.com/kj_technique/"
+				"title": "How to Mood Board",
+				"url": "https://crew.co/backstage/blog/mood-board/"
+			},
+			{
+				"title": "Why Mood Boards Matter",
+				"url": "http://www.webdesignerdepot.com/2008/12/why-mood-boards-matter/"
+			},
+			{
+				"title": "Mood Boarding Methods for Web Designers",
+				"url": "http://www.onextrapixel.com/2012/02/10/mood-boarding-methods-for-web-designers/"
 			}
 		],
 		"phase": [
@@ -527,11 +559,19 @@
 	{
 		"index": 26,
 		"name": "Paper Prototype",
-		"description": "",
+		"description": "With paper prototypes, you can make interactive testable interfaces from your sketches with paper and pencil. Paper prototypes enable really fast iteration and testing.",
 		"links": [
 			{
-				"title": "The KJ-Technique: A Group Process for Establishing Priorities",
-				"url": "https://articles.uie.com/kj_technique/"
+				"title": "Paper Prototyping: The 10-Minute Practical Guide",
+				"url": "https://www.uxpin.com/studio/blog/paper-prototyping-the-practical-beginners-guide/"
+			},
+			{
+				"title": "Paper Prototyping",
+				"url": "http://alistapart.com/article/paperprototyping"
+			},
+			{
+				"title": "How to Prototype Websites on Paper",
+				"url": "http://www.creativebloq.com/ux/how-prototype-websites-paper-31514246"
 			}
 		],
 		"phase": [
@@ -541,11 +581,19 @@
 	{
 		"index": 27,
 		"name": "Pattern Library",
-		"description": "",
+		"description": "Collect common UI components and elements with reusable code, context, and more in your pattern library. Using a pattern library can help tremendously with consistency and make your product easier to maintain, build on, and scale.",
 		"links": [
 			{
-				"title": "The KJ-Technique: A Group Process for Establishing Priorities",
-				"url": "https://articles.uie.com/kj_technique/"
+				"title": "Getting Started with Pattern Libraries",
+				"url": "http://alistapart.com/blog/post/getting-started-with-pattern-libraries"
+			},
+			{
+				"title": "How and Why to Create a Pattern Library",
+				"url": "https://boagworld.com/design/pattern-library/"
+			},
+			{
+				"title": "Anatomy of a Pattern in a Pattern Library",
+				"url": "http://bradfrost.com/blog/post/anatomy-of-a-pattern-in-a-pattern-library/"
 			}
 		],
 		"phase": [
@@ -555,11 +603,19 @@
 	{
 		"index": 28,
 		"name": "Persona",
-		"description": "",
+		"description": "A persona is a representative sample type of user that helps your team understand and empathize with the needs and problems of a real set of users. The best personas are built from research with real users and are used throughout the design process.",
 		"links": [
 			{
-				"title": "The KJ-Technique: A Group Process for Establishing Priorities",
-				"url": "https://articles.uie.com/kj_technique/"
+				"title": "Creating Personas",
+				"url": "http://www.uxbooth.com/articles/creating-personas/"
+			},
+			{
+				"title": "A Closer Look at Personas: What They Are and How They Work (Part 1)",
+				"url": "https://www.smashingmagazine.com/2014/08/a-closer-look-at-personas-part-1/"
+			},
+			{
+				"title": "The Essence of a Successful Persona Project",
+				"url": "https://articles.uie.com/essence_personas/"
 			}
 		],
 		"phase": [
@@ -569,11 +625,19 @@
 	{
 		"index": 29,
 		"name": "Product Principles",
-		"description": "",
+		"description": "Product principles are a set of goals that tie your values to your outcomes. They should be specific enough that you can measure your research, decisions, artifacts, and output against them and judge whether you&rsquo;re living up to them.",
 		"links": [
 			{
-				"title": "The KJ-Technique: A Group Process for Establishing Priorities",
-				"url": "https://articles.uie.com/kj_technique/"
+				"title": "Developing Design Principles",
+				"url": "http://www.lukew.com/ff/entry.asp?854"
+			},
+			{
+				"title": "Design a Better Product with Product Principles",
+				"url": "http://uxcellence.com/2015/11/04/product-principles/"
+			},
+			{
+				"title": "The Product Manifesto",
+				"url": "http://www.svpg.com/the-product-manifesto/"
 			}
 		],
 		"phase": [
@@ -584,12 +648,21 @@
 	{
 		"index": 30,
 		"name": "Remote Testing",
-		"description": "",
+		"description": "Testing your site or app with real users doesn&rsquo;t mean you have to hunt them down in person. With nearly ubiquitous access to the Internet, you can easily observe and interview users interacting with your website or app from their own home.",
 		"links": [
 			{
-				"title": "The KJ-Technique: A Group Process for Establishing Priorities",
-				"url": "https://articles.uie.com/kj_technique/"
+				"title": "Quick and Dirty Remote User Testing",
+				"url": "http://alistapart.com/article/quick-and-dirty-remote-user-testing"
+			},
+			{
+				"title": "Remote Usability Tests: Moderated and Unmoderated",
+				"url": "https://www.nngroup.com/articles/remote-usability-tests/"
+			},
+			{
+				"title": "Remote Usability Testing: Thinking Outside the Lab",
+				"url": "http://www.uxmatters.com/mt/archives/2014/04/remote-usability-testing-thinking-outside-the-lab.php"
 			}
+			
 		],
 		"phase": [
 			"check"
@@ -598,11 +671,19 @@
 	{
 		"index": 31,
 		"name": "Scenario",
-		"description": "",
+		"description": "A scenario tells the story of how a specific persona might solve a problem or achieve a goal using your product in their own context. Scenarios help tell the story of why and how the user interacts with your product without focusing on interface details.",
 		"links": [
 			{
-				"title": "The KJ-Technique: A Group Process for Establishing Priorities",
-				"url": "https://articles.uie.com/kj_technique/"
+				"title": "Context-Rich Scenarios Make UX Projects Manageable",
+				"url": "https://articles.uie.com/ux_projects_scenarios/"
+			},
+			{
+				"title": "How to Perfect Your UX with Persona Scenarios",
+				"url": "https://www.webdesignerdepot.com/2015/04/how-to-perfect-your-ux-with-persona-scenarios/"
+			},
+			{
+				"title": "How User Scenarios Help To Improve Your UX",
+				"url": "http://blog.usabilla.com/how-user-scenarios-help-to-improve-your-ux/"
 			}
 		],
 		"phase": [
@@ -612,11 +693,19 @@
 	{
 		"index": 32,
 		"name": "Sitemap",
-		"description": "",
+		"description": "Your sitemap defines the list of pages, screens, or sections for your site or app. It is often a hierarchical linked and nested list.",
 		"links": [
 			{
-				"title": "The KJ-Technique: A Group Process for Establishing Priorities",
-				"url": "https://articles.uie.com/kj_technique/"
+				"title": "Sitemaps: The Beginner&rsquo;s Guide",
+				"url": "http://theuxreview.co.uk/sitemaps-the-beginners-guide/"
+			},
+			{
+				"title": "UX 101: The Sitemap",
+				"url": "https://www.viget.com/articles/ux-101-the-site-map"
+			},
+			{
+				"title": "The Purpose of Site Maps and Other Design Deliverables",
+				"url": "http://www.uxmatters.com/mt/archives/2016/01/the-purpose-of-site-maps-and-other-design-deliverables.php"
 			}
 		],
 		"phase": [
@@ -627,11 +716,19 @@
 	{
 		"index": 33,
 		"name": "Sketch",
-		"description": "",
+		"description": "Get your ideas out quickly using plain old pencil and paper (or marker and whiteboard). Sketching is the quickest way to think through a concept and put it in front of your team or others.",
 		"links": [
 			{
-				"title": "The KJ-Technique: A Group Process for Establishing Priorities",
-				"url": "https://articles.uie.com/kj_technique/"
+				"title": "The Messy Art of UX Sketching",
+				"url": "https://www.smashingmagazine.com/2011/12/the-messy-art-of-ux-sketching/"
+			},
+			{
+				"title": "Tools for Sketching User Experiences",
+				"url": "http://www.uxbooth.com/articles/tools-for-sketching-user-experiences/"
+			},
+			{
+				"title": "Why It&rsquo;s Important to Sketch Before You Wireframe",
+				"url": "http://uxmovement.com/wireframes/why-its-important-to-sketch-before-you-wireframe/"
 			}
 		],
 		"phase": [
@@ -641,11 +738,19 @@
 	{
 		"index": 34,
 		"name": "Storyboard",
-		"description": "",
+		"description": "Scenarios are to short stories what storyboards are to comics. A storyboard gives a visual context to your scenarios, showing the user&rsquo;s emotions, environment, and activities more succinctly.",
 		"links": [
 			{
-				"title": "The KJ-Technique: A Group Process for Establishing Priorities",
-				"url": "https://articles.uie.com/kj_technique/"
+				"title": "Using Storyboards and Sentiment Charts to Quantify Customer Experience",
+				"url": "http://www.uxmatters.com/mt/archives/2011/11/using-storyboards-and-sentiment-charts-to-quantify-customer-experience.php"
+			},
+			{
+				"title": "Creating UX Storyboards",
+				"url": "http://www.macadamian.com/guide-to-healthcare-software-development/ux-storyboards/"
+			},
+			{
+				"title": "Storyboarding &amp; UX - Part 1: An Introduction",
+				"url": "http://johnnyholland.org/2011/10/storyboarding-ux-part-1-an-introduction/"
 			}
 		],
 		"phase": [
@@ -654,12 +759,20 @@
 	},
 	{
 		"index": 35,
-		"name": "Storymapping",
-		"description": "",
+		"name": "Story Mapping",
+		"description": "When you map the story of a product, it gives you a broader vision of both the basic functionality required as well as the journey between different parts. Story maps help prioritize features, group related subtasks, and give an overall sense of the depth of your product.",
 		"links": [
 			{
-				"title": "The KJ-Technique: A Group Process for Establishing Priorities",
-				"url": "https://articles.uie.com/kj_technique/"
+				"title": "The New User Story Backlog is a Map",
+				"url": "http://jpattonassociates.com/the-new-backlog/"
+			},
+			{
+				"title": "Story Mapping, Visual Way of Building Product Backlog",
+				"url": "https://www.thoughtworks.com/insights/blog/story-mapping-visual-way-building-product-backlog"
+			},
+			{
+				"title": "Visualizing Progress with Agile Storymapping",
+				"url": "https://uxmag.com/articles/visualizing-progress-with-agile-storymapping"
 			}
 		],
 		"phase": [
