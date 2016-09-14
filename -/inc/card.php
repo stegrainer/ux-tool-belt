@@ -6,6 +6,16 @@
 		} else {
 			$card = NULL;
 		}
+		if($_GET['time']) {
+			$time = $_GET['time'];
+		} else {
+			$time = 2;
+		}
+		if($_GET['cost']) {
+			$cost = $_GET['cost'];
+		} else {
+			$cost = 200;
+		}
 	}
 ?>
 
@@ -29,16 +39,14 @@
 				<input type="hidden" name="add" value="<?= $card->index ?>" />
 				<div class="field">
 					<label for="time">Time (in hours):</label>
-					<input type="number" name="time" value="5" min="1" max="100" step="1" id="time" tabindex="1">
+					<input type="number" name="time" value="<?= $time ?>" min="1" max="100" step="1" id="time" tabindex="1">
 				</div>
 				<div class="field">
-					<label for="cost">Cost:</label>
-					<input type="number" name="cost" value="100" min="100" max="5000" step="100" id="cost" tabindex="1">
+					<label for="cost">Estimated Cost:</label>
+					<input type="number" name="cost" value="<?= $cost ?>" min="100" max="5000" step="100" id="cost" tabindex="1">
 				</div>
 				<button type="submit" tabindex="1">Add to your tool belt</button>
 			</form>
 		</div>
 	</div>
-	<? else: ?>
-	TEST!	
 	<? endif; ?>

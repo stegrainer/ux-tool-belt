@@ -1,4 +1,6 @@
 <?
+	session_start();
+
 	include '-/inc/functions.php';
 	$tools = getTools();
 	$phases = groupTools($tools);
@@ -17,7 +19,7 @@
 	<div class="page">
 		<header role="banner">
 			<h1>UX Toolbelt</h1>
-			<ul class="tb"></ul>
+			<? include '-/inc/belt.php' ?>
 		</header>
 		<main role="main">
 			<h2>The Tool Shed</h2>
