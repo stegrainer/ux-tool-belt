@@ -4,6 +4,9 @@
 	include '-/inc/functions.php';
 	$tools = getTools();
 	$phases = groupTools($tools);
+	if($_GET['clear'] == 1) {
+		clearBelt();
+	}
 ?>
 
 <!DOCTYPE html>
@@ -19,6 +22,7 @@
 	<div class="page">
 		<header role="banner">
 			<h1>UX Toolbelt</h1>
+			<? include '-/inc/project.php' ?>
 			<? include '-/inc/belt.php' ?>
 		</header>
 		<main role="main">

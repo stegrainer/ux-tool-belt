@@ -2,18 +2,16 @@
 	if($_REQUEST) {
 		if($_GET['tool']) {
 			$toolID = $_GET['tool'];
-			$card = getTool($toolID, $tools);
+			$card = getTool($toolID);
 		} else {
 			$card = NULL;
 		}
-		if($_GET['time']) {
-			$time = $_GET['time'];
+		if(inBelt($toolID)) {
+			$beltTool = getBeltTool($toolID);
+			$time = $_SESSION['belt'][$beltTool]['time'];
+			$cost = $_SESSION['belt'][$beltTool]['cost'];
 		} else {
 			$time = 2;
-		}
-		if($_GET['cost']) {
-			$cost = $_GET['cost'];
-		} else {
 			$cost = 200;
 		}
 	}
@@ -39,13 +37,16 @@
 				<input type="hidden" name="add" value="<?= $card->index ?>" />
 				<div class="field">
 					<label for="time">Time (in hours):</label>
-					<input type="number" name="time" value="<?= $time ?>" min="1" max="100" step="1" id="time" tabindex="1">
+					<input type="number" name="time" value="<?= $time ?>" min="1" step="1" id="time" tabindex="1">
 				</div>
 				<div class="field">
 					<label for="cost">Estimated Cost:</label>
-					<input type="number" name="cost" value="<?= $cost ?>" min="100" max="5000" step="100" id="cost" tabindex="1">
+					<input type="number" name="cost" value="<?= $cost ?>" min="100" step="100" id="cost" tabindex="1">
 				</div>
-				<button type="submit" tabindex="1">Add to your tool belt</button>
+				<button type="submit" tabindex="1"><? if(!inBelt($toolID)): ?>Add to<? else: ?>Update<? endif; ?> your tool belt</button>
+				<? if(inBelt($toolID)): ?>
+				<a href="?remove=<?= $toolID ?>" class="remove">Remove from your tool belt</a>
+				<? endif; ?>
 			</form>
 		</div>
 	</div>

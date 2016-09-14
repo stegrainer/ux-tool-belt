@@ -22,7 +22,7 @@ h3 {
 	font-size: 125%; }
 h4 {
 	font-size: 112.5%; }
-main p, .card p, .card ul, .card label {
+.tb li, main p, .card p, .card ul, .card label, .remove {
 	font-size: 75%; }
 a {
 	color: #39c;
@@ -44,26 +44,56 @@ header {
 	border-bottom: 1px solid #80c0e0;
 	margin-bottom: 0.75em;
 	padding: 0.75em 0; }
-.tb:empty:before {
+.tb {
 	background: rgba(255,255,255,0.33);
+	margin: 0.75em;
+	padding: 0.5em;
+	text-align: center; }
+.tb a {
+	background: rgba(255,255,255,0.5);
+	border: 2px solid transparent;
+	padding-top: 0.75em; }
+.tb a div {
+	border-top: 1px solid #def;
+	float: left;
+	font-size: 75%;
+	margin: 0.75em 0 0;
+	opacity: 0.5;
+	padding: 0.375em 0;
+	width: 50%; }
+.tb div:first-of-type {
+	border-right: 1px solid #def; }
+.tb a strong {
+	display: block;
+	font-size: 125%; }
+.tb a:hover, .tb a:focus {
+	background: #fff;
+	border-color: #39c; }
+.tb a:hover div, .tb a:focus div {
+	opacity: 1; }
+.tb:empty:before {
 	content: 'Your tool belt is empty.';
 	display: block;
-	margin: 0.75em;
 	padding: 1.5em;
-	text-align: center; }
+	width: 100%; }
 
 .tabs input, .tabs section {
 	display: none; }
 .tabs label {
 	border-bottom: 1px solid rgba(51,51,102,0.25);
 	display: block;
+	float: left;
 	padding: 0.25em;
-	text-align: center; }
-.tabs a {
+	text-align: center;
+	width: calc(100%/3); }
+.tabs section {
+	clear: both; }
+.tabs a, .tb a {
 	display: block;
 	height: 100%;
-	padding: 0.5em;
 	text-align: center; }
+.tabs a {
+	padding: 0.5em; }
 #t3:checked ~ label:nth-of-type(3),
 #t2:checked ~ label:nth-of-type(2),
 #t2:not(:checked) ~ #t3:not(:checked) ~ label:nth-of-type(1) {
@@ -89,10 +119,10 @@ header {
 .tabs section {
 	padding-top: 1.5em; }
 
-.tools {
+.tools, .tb {
 	display: flex;
 	flex-flow: row wrap; }
-.tools > * {
+.tools > *, .tb > * {
 	flex-basis: 10em;
 	flex-grow: 1;
 	margin: 0.25em; }
@@ -170,6 +200,11 @@ header {
 	width: 100%; }
 .button:hover, .button:focus, button:hover, button:focus {
 	background: #336; }
+.remove {
+	color: #c00;
+	display: block;
+	margin: 0;
+	padding: 0 0 0.75em; }
 
 footer {
 	background: #336;
@@ -192,8 +227,6 @@ footer a:hover, footer a:focus {
 	.page { min-height: 100%; }
 	header h1, header .tb, main { width: 80%; }
 	main { padding-bottom: 6em; }
-	.tabs label { float: left; width: calc(100%/3); }
-	.tabs section { clear: both; }
 	.card { max-width: 40rem; width: 60%; }
 	footer { bottom: 0; left: 0; position: absolute; width: 100%; }
 }
