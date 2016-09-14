@@ -21,9 +21,11 @@
 <body>
 	<div class="page">
 		<header role="banner">
-			<h1>UX Toolbelt</h1>
-			<? include '-/inc/project.php' ?>
-			<? include '-/inc/belt.php' ?>
+			<div class="wrap">
+				<h1>UX Toolbelt</h1>
+				<? include '-/inc/project.php' ?>
+				<? include '-/inc/belt.php' ?>
+			</div>
 		</header>
 		<main role="main">
 			<h2>The Tool Shed</h2>

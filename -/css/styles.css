@@ -36,7 +36,7 @@ a:hover, a:focus {
 .page {
 	position: relative;
 	z-index: 1; }
-header h1, header .tb, main {
+header .wrap, main {
 	margin: 0 auto;
 	width: 90%; }
 header {
@@ -178,7 +178,7 @@ header {
 	width: 48%; }
 .field:first-of-type {
 	margin-right: 4%; }
-.card input {
+header input, .card input {
 	display: block;
 	margin: 0;
 	text-align: center;
@@ -225,7 +225,7 @@ footer a:hover, footer a:focus {
 @media screen and (min-width: 40em) {
 	html, body { height: 100%; }
 	.page { min-height: 100%; }
-	header h1, header .tb, main { width: 80%; }
+	header .wrap, main { width: 80%; }
 	main { padding-bottom: 6em; }
 	.card { max-width: 40rem; width: 60%; }
 	footer { bottom: 0; left: 0; position: absolute; width: 100%; }
