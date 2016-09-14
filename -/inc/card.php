@@ -1,32 +1,32 @@
 <?
-	if($_GET) {
+	if($_REQUEST) {
 		if($_GET['tool']) {
-			$id = $_GET['tool'];
-			$tool = getTool($id, $tools);
+			$toolID = $_GET['tool'];
+			$card = getTool($toolID, $tools);
 		} else {
-			$tool = false;
+			$card = NULL;
 		}
 	}
 ?>
 
-	<? if($tool): ?>
+	<? if(is_object($card)): ?>
 	<div class="modal-shown">
 		<div class="overlay"><a href="./"></a></div>
 		<div class="card">
-			<h2><?= $tool->name ?></h2>
+			<h2><?= $card->name ?></h2>
 			<p>
-				<?= $tool->description ?>
+				<?= $card->description ?>
 			</p>
-			<? if($tool->links): ?>
+			<? if($card->links): ?>
 			<h4>Learn more:</h4>
 			<ul>
-			<? foreach($tool->links as $link): ?>
+			<? foreach($card->links as $link): ?>
 				<li><a href="<?= $link->url ?>" tabindex="1"><?= $link->title ?></a></li>
 			<? endforeach; ?>
 			</ul>
 			<? endif; ?>
 			<form action="./" method="get">
-				<input type="hidden" name="add" value="<?= $tool->index ?>" />
+				<input type="hidden" name="add" value="<?= $card->index ?>" />
 				<div class="field">
 					<label for="time">Time (in hours):</label>
 					<input type="number" name="time" value="5" min="1" max="100" step="1" id="time" tabindex="1">
@@ -39,4 +39,6 @@
 			</form>
 		</div>
 	</div>
+	<? else: ?>
+	TEST!	
 	<? endif; ?>
