@@ -22,7 +22,7 @@ h3 {
 	font-size: 125%; }
 h4 {
 	font-size: 112.5%; }
-.tb li, main p, .card p, .card ul, .card label, .remove {
+.tb li, main p, .card p, .card ul, .card label, .remove, .summary {
 	font-size: 75%; }
 a {
 	color: #39c;
@@ -45,36 +45,43 @@ header {
 	margin-bottom: 0.75em;
 	padding: 0.75em 0; }
 .tb {
-	background: rgba(255,255,255,0.33);
-	margin: 0.75em;
-	padding: 0.5em;
-	text-align: center; }
-.tb a {
-	background: rgba(255,255,255,0.5);
-	border: 2px solid transparent;
-	padding-top: 0.75em; }
-.tb a div {
-	border-top: 1px solid #def;
+	background: rgba(255,255,255,0.25);
+	border-bottom: 2px solid rgba(0,0,0,0.2); }
+.summary {
+	font-weight: bold;
+	margin: 0.5em 0 0;
+	padding: 0 0.5em; }
+.tb li {
+	margin: 0; }
+.tb .head {
+	border-bottom: 1px solid rgba(0,0,0,0.1); }
+.tb li div, .summary div {
 	float: left;
-	font-size: 75%;
-	margin: 0.75em 0 0;
-	opacity: 0.5;
-	padding: 0.375em 0;
-	width: 50%; }
-.tb div:first-of-type {
-	border-right: 1px solid #def; }
-.tb a strong {
-	display: block;
-	font-size: 125%; }
+	margin: 0; }
+header .name {
+	width: 66%; }
+header .time, header .cost {
+	width: 17%; }
+header .time {
+	text-align: center; }
+header .cost {
+	text-align: right; }
+.tb a, .tb .head {
+	line-height: 1.5;
+	padding: 0.25em 0.5em; }
+.tb a {
+	display: block; }
 .tb a:hover, .tb a:focus {
-	background: #fff;
-	border-color: #39c; }
-.tb a:hover div, .tb a:focus div {
-	opacity: 1; }
+	background: rgba(255,255,255,0.5); }
+.tb:after, .tb li:after, .tb a:after, .summary:after {
+	clear: both;
+	content: '';
+	display: table; }
 .tb:empty:before {
 	content: 'Your tool belt is empty.';
 	display: block;
 	padding: 1.5em;
+	text-align: center;
 	width: 100%; }
 
 .tabs input, .tabs section {
@@ -88,7 +95,7 @@ header {
 	width: calc(100%/3); }
 .tabs section {
 	clear: both; }
-.tabs a, .tb a {
+.tabs a {
 	display: block;
 	height: 100%;
 	text-align: center; }
@@ -119,10 +126,10 @@ header {
 .tabs section {
 	padding-top: 1.5em; }
 
-.tools, .tb {
+.tools {
 	display: flex;
 	flex-flow: row wrap; }
-.tools > *, .tb > * {
+.tools > * {
 	flex-basis: 10em;
 	flex-grow: 1;
 	margin: 0.25em; }

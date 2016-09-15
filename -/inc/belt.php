@@ -18,10 +18,14 @@
 ?>
 
 <? if(is_array($belt)): ?>
-<?= $total['time'] ?> hours
-$<?= $total['cost'] ?>
 <ul class="tb">
+	<li class="head">
+		<div class="name">Tool</div>
+		<div class="time">Time</div>
+		<div class="cost">Cost</div>
+	</li>
 <? foreach($belt as $b): ?>
+<? /*
 	<li><a href="?tool=<?= $b['id'] ?>&time=<?= $b['time'] ?>&cost=<?= $b['cost'] ?>">
 		<h4><?= $b['tool']->name ?></h4>
 		<div>
@@ -33,8 +37,19 @@ $<?= $total['cost'] ?>
 			Estimated Cost
 		</div>
 	</a></li>
+*/ ?>
+	<li><a href="?tool=<?= $b['id'] ?>&time=<?= $b['time'] ?>&cost=<?= $b['cost'] ?>">
+		<div class="name"><?= $b['tool']->name ?></div>
+		<div class="time"><?= $b['time'] ?></div>
+		<div class="cost">$<?= $b['cost'] ?></div>
+	</a></li>
 <? endforeach; ?>
 </ul>
+<div class="summary">
+	<div class="name">Total: <?= count($belt) ?> tool<? if(count($belt) != 1): ?>s<? endif; ?></div>
+	<div class="time"><?= $total['time'] ?></div>
+	<div class="cost">$<?= $total['cost'] ?></div>
+</div>
 <? else: ?>
 <ul class="tb"></ul>
 <? endif; ?>
