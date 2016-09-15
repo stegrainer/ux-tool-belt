@@ -6,7 +6,9 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 * { box-sizing: border-box; }
 body, input {
-	font: calc(1em + 1vw)/1.5 'Helvetica Neue', Arial, sans-serif; }
+	font-family: 'Helvetica Neue', Arial, sans-serif;
+	font-size: calc(1em + 1vw);
+	line-height: 1.5; }
 body * + * {
 	margin-top: 1.5rem; }
 h1, h2 {
@@ -22,7 +24,7 @@ h3 {
 	font-size: 125%; }
 h4 {
 	font-size: 112.5%; }
-.tb li, main p, .card p, .card ul, .card label, .remove, .summary {
+header label, .tb li, main p, .card p, .card ul, .card label, .remove, .summary {
 	font-size: 75%; }
 a {
 	color: #39c;
@@ -185,7 +187,7 @@ header .cost {
 	width: 48%; }
 .field:first-of-type {
 	margin-right: 4%; }
-header input, .card input {
+header input, header label, .card input {
 	display: block;
 	margin: 0;
 	text-align: center;
@@ -212,6 +214,28 @@ header input, .card input {
 	display: block;
 	margin: 0;
 	padding: 0 0 0.75em; }
+header input {
+	border: 1px solid #80c0e0; }
+header .named {
+	background: rgba(255,255,255,0.1);
+	border-color: transparent; }
+header .named:hover {
+	background: rgba(255,255,255,0.5);
+	cursor: pointer; }
+header .named:focus {
+	background: #fff;
+	border-color: #80c0e0; }
+header input ~ label {
+	opacity: 0.33;
+	position: relative;
+	top: -2.25em;
+	transition: all 0.25s ease-in-out; }
+header .named ~ label {
+	opacity: 0;
+	top: -1.5em; }
+header input:focus ~ label {
+	opacity: 1;
+	top: 0; }
 
 footer {
 	background: #336;

@@ -21,7 +21,7 @@
 <ul class="tb">
 	<li class="head">
 		<div class="name">Tool</div>
-		<div class="time">Time</div>
+		<div class="time">Hours</div>
 		<div class="cost">Cost</div>
 	</li>
 <? foreach($belt as $b): ?>

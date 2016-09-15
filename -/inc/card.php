@@ -14,6 +14,9 @@
 			$time = 2;
 			$cost = 200;
 		}
+		if($_GET['expand']) {
+			$expand = $_GET['expand'];
+		}
 	}
 ?>
 
@@ -22,6 +25,7 @@
 		<div class="overlay"><a href="./"></a></div>
 		<div class="card">
 			<h2><?= $card->name ?></h2>
+		<? if(!inBelt($toolID) || ($expand)): ?>
 			<p>
 				<?= $card->description ?>
 			</p>
@@ -33,6 +37,11 @@
 			<? endforeach; ?>
 			</ul>
 			<? endif; ?>
+		<? else: ?>
+			<p>
+				<a href="?<?=$_SERVER['QUERY_STRING']?>&amp;expand=1">Read more about this</a>
+			</p>
+		<? endif; ?>
 			<form action="./" method="get">
 				<input type="hidden" name="add" value="<?= $card->index ?>" />
 				<div class="field">
