@@ -1,0 +1,56 @@
+.overlay {
+	position: fixed;
+	background: rgba(0,0,0,0.85); }
+.modal-shown, .overlay {
+	z-index: 2; }
+.overlay > a {
+	display: block; }
+.card {
+	background: #fff;
+	box-shadow: 0 0 45px rgba(0,0,0,0.95);
+	left: 50%;
+	margin: 0 auto;
+	position: absolute;
+	top: 1.5em;
+	transform: translateX(-50%);
+	width: 90%;
+	z-index: 3; }
+.card > * {
+	padding: 0 0.75em; }
+.card ul {
+	list-style: disc;
+	margin-left: 3em; }
+.card li {
+	margin: 0; }
+.card form {
+	background: #eee;
+	border-top: 1px solid #ddd;
+	text-align: center; }
+.field {
+	float: left;
+	margin: 0;
+	width: 48%; }
+.field:first-of-type {
+	margin-right: 4%; }
+.button, button {
+	background: #39c;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 100%;
+	line-height: 1.5;
+	margin: 0.75em 0;
+	padding: 0.75em 1.5em;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 0 0 3px rgba(0,0,0,0.5);
+	transition: all 0.25s ease-in-out;
+	width: 100%; }
+.button:hover, .button:focus, button:hover, button:focus {
+	background: #336; }
+.remove {
+	color: #c00;
+	display: block;
+	margin: 0;
+	padding: 0 0 0.75em; }

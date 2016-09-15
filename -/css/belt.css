@@ -1,0 +1,30 @@
+.summary {
+	font-weight: bold;
+	margin: 0.5em 0 0;
+	padding: 0 0.5em; }
+.tb li {
+	margin: 0; }
+.tb .head {
+	border-bottom: 1px solid rgba(0,0,0,0.1); }
+.tb li div, .summary div {
+	float: left;
+	margin: 0; }
+header .name {
+	width: 66%; }
+header .time, header .cost {
+	width: 17%; }
+header .time {
+	text-align: center; }
+header .cost {
+	text-align: right; }
+.tb a, .tb .head {
+	line-height: 1.5;
+	padding: 0.25em 0.5em; }
+.tb a {
+	display: block; }
+.tb a:hover, .tb a:focus {
+	background: rgba(255,255,255,0.5); }
+.tb:after, .tb li:after, .tb a:after, .summary:after {
+	clear: both;
+	content: '';
+	display: table; }

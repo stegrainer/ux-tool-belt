@@ -21,6 +21,7 @@
 ?>
 
 	<? if(is_object($card)): ?>
+	<link rel="stylesheet" href="-/css/card.css">
 	<div class="modal-shown">
 		<div class="overlay"><a href="./"></a></div>
 		<div class="card">

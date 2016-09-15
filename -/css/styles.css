@@ -49,36 +49,6 @@ header {
 .tb {
 	background: rgba(255,255,255,0.25);
 	border-bottom: 2px solid rgba(0,0,0,0.2); }
-.summary {
-	font-weight: bold;
-	margin: 0.5em 0 0;
-	padding: 0 0.5em; }
-.tb li {
-	margin: 0; }
-.tb .head {
-	border-bottom: 1px solid rgba(0,0,0,0.1); }
-.tb li div, .summary div {
-	float: left;
-	margin: 0; }
-header .name {
-	width: 66%; }
-header .time, header .cost {
-	width: 17%; }
-header .time {
-	text-align: center; }
-header .cost {
-	text-align: right; }
-.tb a, .tb .head {
-	line-height: 1.5;
-	padding: 0.25em 0.5em; }
-.tb a {
-	display: block; }
-.tb a:hover, .tb a:focus {
-	background: rgba(255,255,255,0.5); }
-.tb:after, .tb li:after, .tb a:after, .summary:after {
-	clear: both;
-	content: '';
-	display: table; }
 .tb:empty:before {
 	content: 'Your tool belt is empty.';
 	display: block;
@@ -114,8 +84,7 @@ header .cost {
 	cursor: pointer; }
 .tabs input:nth-of-type(2):not(:checked) ~ input:nth-of-type(3):not(:checked) ~ section:nth-of-type(1),
 .tabs input:nth-of-type(2):checked ~ section:nth-of-type(2),
-.tabs input:nth-of-type(3):checked ~ section:nth-of-type(3) 
-{
+.tabs input:nth-of-type(3):checked ~ section:nth-of-type(3) {
 	animation: bob 0.25s ease-in-out 1;
   display: block; }
 @keyframes bob {
@@ -153,67 +122,12 @@ header .cost {
 	margin: 0;
 	top: 0;
 	width: 100%; }
-.overlay {
-	position: fixed;
-	background: rgba(0,0,0,0.85); }
-.modal-shown, .overlay {
-	z-index: 2; }
-.overlay > a {
-	display: block; }
-.card {
-	background: #fff;
-	box-shadow: 0 0 45px rgba(0,0,0,0.95);
-	left: 50%;
-	margin: 0 auto;
-	position: absolute;
-	top: 1.5em;
-	transform: translateX(-50%);
-	width: 90%;
-	z-index: 3; }
-.card > * {
-	padding: 0 0.75em; }
-.card ul {
-	list-style: disc;
-	margin-left: 3em; }
-.card li {
-	margin: 0; }
-.card form {
-	background: #eee;
-	border-top: 1px solid #ddd;
-	text-align: center; }
-.field {
-	float: left;
-	margin: 0;
-	width: 48%; }
-.field:first-of-type {
-	margin-right: 4%; }
+
 header input, header label, .card input {
 	display: block;
 	margin: 0;
 	text-align: center;
 	width: 100%; }
-.button, button {
-	background: #39c;
-	border: none;
-	color: #fff;
-	cursor: pointer;
-	display: inline-block;
-	font-size: 100%;
-	line-height: 1.5;
-	margin: 0.75em 0;
-	padding: 0.75em 1.5em;
-	text-align: center;
-	text-decoration: none;
-	text-shadow: 0 0 3px rgba(0,0,0,0.5);
-	transition: all 0.25s ease-in-out;
-	width: 100%; }
-.button:hover, .button:focus, button:hover, button:focus {
-	background: #336; }
-.remove {
-	color: #c00;
-	display: block;
-	margin: 0;
-	padding: 0 0 0.75em; }
 header input {
 	border: 1px solid #80c0e0; }
 header .named {
@@ -239,7 +153,6 @@ header input:focus ~ label {
 
 footer {
 	background: #336;
-	border-top: 4px solid #669;
 	padding: 1.5em;
 	text-align: center; }
 footer a, footer a {
