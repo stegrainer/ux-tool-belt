@@ -82,7 +82,7 @@ header .cost {
 .tb:empty:before {
 	content: 'Your tool belt is empty.';
 	display: block;
-	padding: 1.5em;
+	padding: 1.5em 0;
 	text-align: center;
 	width: 100%; }
 
