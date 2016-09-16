@@ -1,7 +1,9 @@
 <?
+	include_once 'functions.php';
+	
 	if($_REQUEST) {
-		if($_GET['tool']) {
-			$toolID = $_GET['tool'];
+		if($_REQUEST['tool']) {
+			$toolID = $_REQUEST['tool'];
 			$card = getTool($toolID);
 		} else {
 			$card = NULL;
@@ -14,8 +16,8 @@
 			$time = 2;
 			$cost = 200;
 		}
-		if($_GET['expand']) {
-			$expand = $_GET['expand'];
+		if($_REQUEST['expand']) {
+			$expand = $_REQUEST['expand'];
 		}
 	}
 ?>

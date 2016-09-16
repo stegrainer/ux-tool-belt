@@ -1,10 +1,10 @@
 <?
 	session_start();
 
-	include '-/inc/functions.php';
+	include_once '-/inc/functions.php';
 	$tools = getTools();
 	$phases = groupTools($tools);
-	if($_GET['clear'] == 1) {
+	if($_REQUEST['clear'] == 1) {
 		clearBelt();
 	}
 ?>
@@ -23,8 +23,12 @@
 		<header role="banner">
 			<div class="wrap">
 				<h1>UX Toolbelt</h1>
+				<div id="pName">
 				<? include '-/inc/project.php' ?>
+				</div>
+				<div id="belt">
 				<? include '-/inc/belt.php' ?>
+				</div>
 			</div>
 		</header>
 		<main role="main">
@@ -66,7 +70,7 @@
 			<a href="https://stegrainer.com">Made with care by Ste Grainer.</a>
 		</footer>
 	</div>
-	<div class="modal">
+	<div class="modal" id="card">
 	<? include '-/inc/card.php' ?>
 	</div>
 <script type="text/javascript" src="-/js/scripts.js"></script>

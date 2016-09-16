@@ -1,9 +1,11 @@
 <?
+	include_once 'functions.php';
+	
 	if(isset($_REQUEST['project'])) {
 		if(empty($_REQUEST['project'])) {
 			unset($_SESSION['project']);
 		} else {
-			$_SESSION['project'] = $_GET['project'];
+			$_SESSION['project'] = $_REQUEST['project'];
 		}
 	}
 ?>

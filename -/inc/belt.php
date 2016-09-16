@@ -1,14 +1,16 @@
 <?
+	include_once 'functions.php';
+	
 	if($_REQUEST['add']) {
-		$addTime = ($_GET['time']) ? $_GET['time'] : 2;
-		$addCost = ($_GET['cost']) ? $_GET['cost'] : 200;
-		if($_GET['add']) {
-			$addID = $_GET['add'];
+		$addTime = ($_REQUEST['time']) ? $_REQUEST['time'] : 2;
+		$addCost = ($_REQUEST['cost']) ? $_REQUEST['cost'] : 200;
+		if($_REQUEST['add']) {
+			$addID = $_REQUEST['add'];
 			addToBelt($addID, $addTime, $addCost);
 		}
 	}
 	if($_REQUEST['remove']) {
-		$removeID = $_GET['remove'];
+		$removeID = $_REQUEST['remove'];
 		if(inBelt($removeID)) {
 			removeTool($removeID);
 		}
