@@ -34,13 +34,13 @@
 		<main role="main">
 			<h2>The Tool Shed</h2>
 			<div class="tabs">
-				<input type="radio" name="tab" id="t1" checked>
-				<input type="radio" name="tab" id="t2">
-				<input type="radio" name="tab" id="t3">
-				<label for="t1" tabindex="1">Think</label>
-				<label for="t2" tabindex="2">Make</label>
-				<label for="t3" tabindex="3">Check</label>
-				<section id="think">
+				<input type="radio" name="tab" id="think" checked>
+				<input type="radio" name="tab" id="make">
+				<input type="radio" name="tab" id="check">
+				<label for="think" tabindex="1">Think</label>
+				<label for="make" tabindex="2">Make</label>
+				<label for="check" tabindex="3">Check</label>
+				<section>
 					<h3>Tools for Thinking</h3>
 					<ul class="tools">
 					<? foreach($phases['think'] as $tool): ?>
@@ -48,7 +48,7 @@
 					<? endforeach; ?>
 					</ul>
 				</section>
-				<section id="make">
+				<section>
 					<h3>Tools for Making</h3>
 					<ul class="tools">
 					<? foreach($phases['make'] as $tool): ?>
@@ -56,7 +56,7 @@
 					<? endforeach; ?>
 					</ul>
 				</section>
-				<section id="check">
+				<section>
 					<h3>Tools for Checking</h3>
 					<ul class="tools">
 					<? foreach($phases['check'] as $tool): ?>

@@ -15,8 +15,9 @@ h1, h2 {
 	font-weight: bold;
 	text-align: center; }
 h1 {
-	color: #336;
-	font-size: 200%; }
+	color: #fff;
+	font-size: 200%;
+	text-shadow: 1px 1px 0 #4197d4, 2px 2px 0 #4197d4, 3px 3px 0 #4197d4; }
 h2 {
 	color: #669;
 	font-size: 150%; }
@@ -42,13 +43,16 @@ header .wrap, main {
 	margin: 0 auto;
 	width: 90%; }
 header {
-	background: #cce6f3;
-	border-bottom: 1px solid #80c0e0;
+	background: #4197d4;
+	background: -moz-linear-gradient(top,  #4db2fa 0%, #1f73ae 100%);
+	background: -webkit-linear-gradient(top,  #4db2fa 0%,#1f73ae 100%);
+	background: linear-gradient(to bottom,  #4db2fa 0%,#1f73ae 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4197d4', endColorstr='#1f73ae',GradientType=0 );
 	margin-bottom: 0.75em;
 	padding: 0.75em 0; }
 .tb {
-	background: rgba(255,255,255,0.25);
-	border-bottom: 2px solid rgba(0,0,0,0.2); }
+	background: rgba(255,255,255,0.67);
+	border-bottom: 2px solid #185987; }
 .tb:empty:before {
 	content: 'Your tool belt is empty.';
 	display: block;
@@ -73,9 +77,9 @@ header {
 	text-align: center; }
 .tabs a {
 	padding: 0.5em; }
-#t3:checked ~ label:nth-of-type(3),
-#t2:checked ~ label:nth-of-type(2),
-#t2:not(:checked) ~ #t3:not(:checked) ~ label:nth-of-type(1) {
+#check:checked ~ label:nth-of-type(3),
+#make:checked ~ label:nth-of-type(2),
+#make:not(:checked) ~ #check:not(:checked) ~ label:nth-of-type(1) {
 	background: #669;
 	color: #fff; }
 .tabs label:hover, .tabs label:focus {
@@ -132,14 +136,18 @@ header input {
 	border: 1px solid #80c0e0; }
 header .named {
 	background: rgba(255,255,255,0.1);
-	border-color: transparent; }
+	border-color: transparent;
+	color: #fff; }
 header .named:hover {
-	background: rgba(255,255,255,0.5);
+	background: rgba(255,255,255,0.2); }
+header .named:hover, header label:hover {
 	cursor: pointer; }
 header .named:focus {
 	background: #fff;
-	border-color: #80c0e0; }
+	border-color: #80c0e0;
+	color: #333; }
 header input ~ label {
+	color: #333;
 	opacity: 0.33;
 	position: relative;
 	top: -2.25em;
@@ -148,6 +156,7 @@ header .named ~ label {
 	opacity: 0;
 	top: -1.5em; }
 header input:focus ~ label {
+	color: #fff;
 	opacity: 1;
 	top: 0; }
 
