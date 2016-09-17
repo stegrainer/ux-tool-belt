@@ -1,22 +1,25 @@
-<ifmodule mod_deflate.c>
-	AddOutputFilterByType DEFLATE "application/javascript" \
-                                "application/json" \
-                                "application/ld+json" \
-                                "application/manifest+json" \
-                                "application/schema+json" \
-                                "application/vnd.geo+json" \
-                                "application/x-font-ttf" \
-                                "application/x-javascript" \
-                                "application/x-web-app-manifest+json" \
-                                "application/xhtml+xml" \
-                                "application/xml" \
-                                "font/eot" \
-                                "font/opentype" \
-                                "image/svg+xml" \
-                                "image/x-icon" \
-                                "text/cache-manifest" \
-                                "text/css" \
-                                "text/html" \
-                                "text/javascript" \
-                                "text/plain" \
-</ifmodule>
+## COMPRESSION ##
+<IfModule mod_deflate.c>
+    <filesMatch "\.(js|css|html|php|xml|otf|ttf|eot|svg|ico)$">
+        SetOutputFilter DEFLATE
+    </filesMatch>
+</IfModule>
+
+
+## EXPIRES CACHING ##
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresByType image/x-icon "access plus 1 month"
+ExpiresByType image/jpg "access plus 1 month"
+ExpiresByType image/jpeg "access plus 1 month"
+ExpiresByType image/gif "access plus 1 month"
+ExpiresByType image/png "access plus 1 month"
+ExpiresByType image/svg+xml "access plus 1 month"
+ExpiresByType text/css "access plus 1 month"
+ExpiresByType text/plain "access plus 1 month"
+ExpiresByType application/pdf "access plus 1 month"
+ExpiresByType application/x-javascript "access plus 1 month"
+ExpiresByType application/javascript "access plus 1 month"
+ExpiresDefault "access plus 10 days"
+</IfModule>
+## EXPIRES CACHING ##
