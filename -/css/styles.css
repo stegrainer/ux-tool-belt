@@ -53,12 +53,17 @@ header {
 .tb {
 	background: rgba(255,255,255,0.67);
 	border-bottom: 2px solid #185987; }
+.tb:empty {
+	background: rgba(255,255,255,0.1);
+	border-color: #1f73ae; }
 .tb:empty:before {
-	content: 'Your tool belt is empty.';
+	color: rgba(255,255,255,0.67);
+	content: 'Your tool belt is empty. Add tools below.';
 	display: block;
+	margin: 0 5%;
 	padding: 1.5em 0;
 	text-align: center;
-	width: 100%; }
+	width: 90%; }
 
 .tabs input, .tabs section {
 	display: none; }
@@ -135,7 +140,7 @@ header input, header label, .card input {
 header input {
 	border: 1px solid #80c0e0; }
 header .named {
-	background: rgba(255,255,255,0.1);
+	background: transparent;
 	border-color: transparent;
 	color: #fff; }
 header .named:hover {

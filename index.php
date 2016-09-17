@@ -14,7 +14,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width; initial-scale=1.0">
-	<title>UX Project Toolbelt</title>
+	<title>The UX Tool Belt</title>
 	<link rel="stylesheet" href="-/css/styles.css">
 </head>
 
@@ -22,7 +22,7 @@
 	<div class="page">
 		<header role="banner">
 			<div class="wrap">
-				<h1>UX Toolbelt</h1>
+				<h1>The UX Tool Belt</h1>
 				<div id="pName">
 				<? include '-/inc/project.php' ?>
 				</div>
@@ -41,7 +41,6 @@
 				<label for="make" tabindex="2">Make</label>
 				<label for="check" tabindex="3">Check</label>
 				<section>
-					<h3>Tools for Thinking</h3>
 					<ul class="tools">
 					<? foreach($phases['think'] as $tool): ?>
 						<li><a href="?tool=<?= $tool->index ?>"><p><?= $tool->name ?></p></a></li>
@@ -49,7 +48,6 @@
 					</ul>
 				</section>
 				<section>
-					<h3>Tools for Making</h3>
 					<ul class="tools">
 					<? foreach($phases['make'] as $tool): ?>
 						<li><a href="?tool=<?= $tool->index ?>"><p><?= $tool->name ?></p></a></li>
@@ -57,7 +55,6 @@
 					</ul>
 				</section>
 				<section>
-					<h3>Tools for Checking</h3>
 					<ul class="tools">
 					<? foreach($phases['check'] as $tool): ?>
 						<li><a href="?tool=<?= $tool->index ?>"><p><?= $tool->name ?></p></a></li>
