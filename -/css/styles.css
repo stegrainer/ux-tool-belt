@@ -15,9 +15,9 @@ h1, h2 {
 	font-weight: bold;
 	text-align: center; }
 h1 {
-	color: #fff;
-	font-size: 200%;
-	text-shadow: 1px 1px 0 #4197d4, 2px 2px 0 #4197d4, 3px 3px 0 #4197d4; }
+	color: #669;
+	font-size: 250%;
+	text-shadow: 1px 1px 0 #e7e7e7, 2px 2px 0 rgba(66,72,124,0.2), 3px 3px 0 rgba(66,72,124,0.2); }
 h2 {
 	color: #669;
 	font-size: 150%; }
@@ -25,7 +25,7 @@ h3 {
 	font-size: 125%; }
 h4 {
 	font-size: 112.5%; }
-header label, .tb li, main p, .card p, .card ul, .card label, .remove, .summary {
+.project label, .tb li, main p, .card p, .card ul, .card label, .remove, .summary {
 	font-size: 75%; }
 a {
 	color: #39c;
@@ -33,22 +33,55 @@ a {
 	transition: all 0.25s ease-in-out; }
 a:hover, a:focus {
 	color: #336; }
+.button, button {
+	background: #669;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 100%;
+	line-height: 1.5;
+	margin: 0.75em 0;
+	padding: 0.75em 1.5em;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 0 0 3px rgba(0,0,0,0.5);
+	transition: all 0.25s ease-in-out;
+	width: 100%; }
+.secondary {
+	background: rgba(255,255,255,0.15); }
+.button:hover, .button:focus, button:hover, button:focus {
+	background: #336; }
 
 /* Content */
 
 .page {
 	position: relative;
 	z-index: 1; }
+header {
+	background: #e7e7e7; }
+.img {
+	display: none; }
+.img.loaded {
+	display: block; }
+header img {
+	display: block;
+	height: auto;
+	margin: 0 auto;
+	max-width: 400px;
+	position: relative;
+	top: 0.75em;
+	width: 50%; }
 header .wrap, main {
 	margin: 0 auto;
 	width: 90%; }
-header {
+.project {
 	background: #4197d4;
 	background: -moz-linear-gradient(top,  #4db2fa 0%, #1f73ae 100%);
 	background: -webkit-linear-gradient(top,  #4db2fa 0%,#1f73ae 100%);
 	background: linear-gradient(to bottom,  #4db2fa 0%,#1f73ae 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4197d4', endColorstr='#1f73ae',GradientType=0 );
-	margin-bottom: 0.75em;
+	margin: 0.75em 0;
 	padding: 0.75em 0; }
 .tb {
 	background: rgba(255,255,255,0.67);
@@ -132,35 +165,35 @@ header {
 	top: 0;
 	width: 100%; }
 
-header input, header label, .card input {
+.project input, .project label, .card input {
 	display: block;
 	margin: 0;
 	text-align: center;
 	width: 100%; }
-header input {
+.project input {
 	border: 1px solid #80c0e0; }
-header .named {
+.project .named {
 	background: transparent;
 	border-color: transparent;
 	color: #fff; }
-header .named:hover {
+.project .named:hover {
 	background: rgba(255,255,255,0.2); }
-header .named:hover, header label:hover {
+.project .named:hover, .project label:hover {
 	cursor: pointer; }
-header .named:focus {
+.project .named:focus {
 	background: #fff;
 	border-color: #80c0e0;
 	color: #333; }
-header input ~ label {
+.project input ~ label {
 	color: #333;
 	opacity: 0.33;
 	position: relative;
 	top: -2.25em;
 	transition: all 0.25s ease-in-out; }
-header .named ~ label {
+.project .named ~ label {
 	opacity: 0;
 	top: -1.5em; }
-header input:focus ~ label {
+.project input:focus ~ label {
 	color: #fff;
 	opacity: 1;
 	top: 0; }

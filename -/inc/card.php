@@ -45,7 +45,7 @@
 				<a href="?<?=$_SERVER['QUERY_STRING']?>&amp;expand=1">Read more about this</a>
 			</p>
 		<? endif; ?>
-			<form action="./" method="get">
+			<form action="./" method="post">
 				<input type="hidden" name="add" value="<?= $card->index ?>" />
 				<div class="field">
 					<label for="time">Time (in hours):</label>

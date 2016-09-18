@@ -21,13 +21,12 @@
 <body>
 	<div class="page">
 		<header role="banner">
-			<div class="wrap">
-				<h1>The UX Tool Belt</h1>
-				<div id="pName">
-				<? include '-/inc/project.php' ?>
-				</div>
-				<div id="belt">
-				<? include '-/inc/belt.php' ?>
+			<div id="logo" class="img"></div>
+			<h1>The UX Tool Belt</h1>
+			<div class="project">
+				<div class="wrap">
+					<? include '-/inc/project.php' ?>
+					<? include '-/inc/belt.php' ?>
 				</div>
 			</div>
 		</header>

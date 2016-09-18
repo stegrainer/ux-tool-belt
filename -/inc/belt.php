@@ -28,19 +28,6 @@
 		<div class="cost">Cost</div>
 	</li>
 <? foreach($belt as $b): ?>
-<? /*
-	<li><a href="?tool=<?= $b['id'] ?>&time=<?= $b['time'] ?>&cost=<?= $b['cost'] ?>">
-		<h4><?= $b['tool']->name ?></h4>
-		<div>
-			<strong><?= $b['time'] ?></strong>
-			Hours
-		</div>
-		<div>
-			<strong>$<?= $b['cost'] ?></strong>
-			Estimated Cost
-		</div>
-	</a></li>
-*/ ?>
 	<li><a href="?tool=<?= $b['id'] ?>&time=<?= $b['time'] ?>&cost=<?= $b['cost'] ?>">
 		<div class="name"><?= $b['tool']->name ?></div>
 		<div class="time"><?= $b['time'] ?></div>
@@ -52,6 +39,16 @@
 	<div class="name">Total: <?= count($belt) ?> tool<? if(count($belt) != 1): ?>s<? endif; ?></div>
 	<div class="time"><?= $total['time'] ?></div>
 	<div class="cost">$<?= $total['cost'] ?></div>
+</div>
+<div class="actions">
+	<form action="./" method="post">
+		<input type="hidden" name="print" value="1">
+		<button type="submit">Print this project</button>
+	</form>
+	<form action="./" method="post">
+		<input type="hidden" name="clear" value="1">
+		<button type="submit" class="secondary">Clear this project</button>
+	</form>
 </div>
 <? else: ?>
 <ul class="tb"></ul>

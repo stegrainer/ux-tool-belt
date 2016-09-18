@@ -11,13 +11,13 @@
 .tb li div, .summary div {
 	float: left;
 	margin: 0; }
-header .name {
+.project .name {
 	width: 66%; }
-header .time, header .cost {
+.project .time, .project .cost {
 	width: 17%; }
-header .time {
+.project .time {
 	text-align: center; }
-header .cost {
+.project .cost {
 	text-align: right; }
 .tb a, .tb .head {
 	line-height: 1.5;
@@ -28,11 +28,15 @@ header .cost {
 .tb a:hover, .tb a:focus {
 	background: rgba(255,255,255,0.67);
 	color: #39c; }
-.tb:after, .tb li:after, .tb a:after, .summary:after {
+.tb:after, .tb li:after, .tb a:after, .summary:after, .actions:after {
 	clear: both;
 	content: '';
 	display: table; }
+.actions form {
+	margin: 0; }
 
 @media screen and (min-width: 40em) {
 	.summary { font-size: 100%; line-height: 1.2; padding: 0 0.38em; }
+	.actions form { float: left; width: 48%; }
+	.actions form:first-of-type { margin-right: 4%; }
 }
