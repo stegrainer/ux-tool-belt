@@ -49,11 +49,11 @@
 				<input type="hidden" name="add" value="<?= $card->index ?>" />
 				<div class="field">
 					<label for="time">Time (in hours):</label>
-					<input type="number" name="time" value="<?= $time ?>" min="1" step="1" id="time" tabindex="1">
+					<input type="number" name="time" value="<?= $time ?>" min="1" max="400" step="1" id="time" tabindex="1">
 				</div>
 				<div class="field">
 					<label for="cost">Estimated Cost:</label>
-					<input type="number" name="cost" value="<?= $cost ?>" min="100" step="100" id="cost" tabindex="1">
+					<input type="number" name="cost" value="<?= $cost ?>" min="100" max="50000" step="100" id="cost" tabindex="1">
 				</div>
 				<button type="submit" tabindex="1"><? if(!inBelt($toolID)): ?>Add to<? else: ?>Update<? endif; ?> your tool belt</button>
 				<? if(inBelt($toolID)): ?>

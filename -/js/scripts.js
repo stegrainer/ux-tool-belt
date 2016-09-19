@@ -34,6 +34,13 @@ function belt() {
 	} else {
 		addHash('think')
 	}
+	
+	var pName = document.getElementById('project');
+	pName.onblur = function() {
+		if(this.value != this.defaultValue) {
+			this.form.submit();
+		}
+	};
 }
 
 window.onload = belt;

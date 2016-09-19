@@ -17,6 +17,7 @@ h1, h2 {
 h1 {
 	color: #669;
 	font-size: 250%;
+	letter-spacing: -1.5px;
 	text-shadow: 1px 1px 0 #e7e7e7, 2px 2px 0 rgba(66,72,124,0.2), 3px 3px 0 rgba(66,72,124,0.2); }
 h2 {
 	color: #669;
@@ -25,7 +26,7 @@ h3 {
 	font-size: 125%; }
 h4 {
 	font-size: 112.5%; }
-.project label, .tb li, main p, .card p, .card ul, .card label, .remove, .summary {
+.project label, .tb li, p, .card ul, .card label, .remove, .summary {
 	font-size: 75%; }
 a {
 	color: #39c;

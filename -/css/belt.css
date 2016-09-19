@@ -37,6 +37,7 @@
 
 @media screen and (min-width: 40em) {
 	.summary { font-size: 100%; line-height: 1.2; padding: 0 0.38em; }
+	.actions { margin: 0 auto; }
 	.actions form { float: left; width: 48%; }
 	.actions form:first-of-type { margin-right: 4%; }
 }

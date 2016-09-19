@@ -21,12 +21,21 @@
 <body>
 	<div class="page">
 		<header role="banner">
-			<div id="logo" class="img"></div>
-			<h1>The UX Tool Belt</h1>
+			<div class="wrap">
+				<div id="logo" class="img"></div>
+				<h1>The UX Tool Belt</h1>
+				<p>
+					There&rsquo;s a lot more to User Experience design than mockups and prototypes.
+				</p>
+			</div>
 			<div class="project">
 				<div class="wrap">
+					<div id="pName">
 					<? include '-/inc/project.php' ?>
+					</div>
+					<div id="belt">
 					<? include '-/inc/belt.php' ?>
+					</div>
 				</div>
 			</div>
 		</header>
