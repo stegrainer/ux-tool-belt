@@ -57,7 +57,7 @@
 				</div>
 				<button type="submit" tabindex="1"><? if(!inBelt($toolID)): ?>Add to<? else: ?>Update<? endif; ?> your tool belt</button>
 				<? if(inBelt($toolID)): ?>
-				<a href="?remove=<?= $toolID ?>" class="remove">Remove from your tool belt</a>
+				<a href="?remove=<?= $toolID ?>" class="remove warn">Remove from your tool belt</a>
 				<? endif; ?>
 			</form>
 		</div>

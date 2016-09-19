@@ -47,7 +47,7 @@
 	</form>
 	<form action="./" method="post">
 		<input type="hidden" name="clear" value="1">
-		<button type="submit" class="secondary">Clear this project</button>
+		<button type="submit" class="secondary warn">Clear this project</button>
 	</form>
 </div>
 <? else: ?>

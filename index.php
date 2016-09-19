@@ -24,12 +24,28 @@
 			<div class="wrap">
 				<div id="logo" class="img"></div>
 				<h1>The UX Tool Belt</h1>
-				<p>
-					There&rsquo;s a lot more to User Experience design than mockups and prototypes.
-				</p>
+				<div class="intro">
+					<p>
+						There&rsquo;s a lot more to User Experience design than just mockups
+						and prototypes. The Tool Shed below has a compilation of the many
+						tools and techniques available to UX designers with documentation on
+						how to use them and where to find more details. You can use this to
+						document your overall process or to define your process for a
+						specific project.
+					</p>
+					<p>
+						The tools are organized by the Lean UX process framework: Think,
+						Make, Check. Think Tools help you research, understand your users,
+						and relate to their problem. Make Tools help you get to a testable
+						solution. Finally, Check Tools help you validate whether or not your
+						solution works for the customer. Some tools may be helpful in more
+						than one phase.
+					</p>
+				</div>
 			</div>
 			<div class="project">
 				<div class="wrap">
+					<h2>Your Tool Belt</h2>
 					<div id="pName">
 					<? include '-/inc/project.php' ?>
 					</div>
@@ -72,7 +88,10 @@
 			</div>
 		</main>
 		<footer>
-			<a href="https://stegrainer.com">Made with care by Ste Grainer.</a>
+			<a href="http://uxcellence.com">A UXcellence Project</a> &#x25cf;
+			<a href="https://stegrainer.com/contact/">I welcome your feedback</a><br />
+			<a href="https://stegrainer.com">Made with care by Ste Grainer.</a><br />
+			&copy; 2016
 		</footer>
 	</div>
 	<div class="modal" id="card">
