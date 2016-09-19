@@ -16,6 +16,10 @@ function belt() {
 		frame.className += 'loaded';
 	}
 
+	var hasClass = function(elem,c) {
+		return (" " + elem.className + " " ).indexOf( " "+c+" " ) > -1;
+	}
+
 	loadImg('-/img/ux-belt.svg','The UX Tool Belt','logo');
 
 	var tabs = document.querySelectorAll(".tabs label");
@@ -41,6 +45,18 @@ function belt() {
 			this.form.submit();
 		}
 	};
+	
+	var clrLinks = document.getElementsByClassName('warn');
+	for(var i=0; i<clrLinks.length; i++) {
+		clrLinks[i].onclick = function() {
+			if(hasClass(this,'remove')) {
+				var q = 'Are you sure you want to remove this tool?\nClicking OK will remove it.';
+			} else {
+				var q = 'Are you sure you want to clear this project?\nClicking OK will clear it.';
+			}
+			return confirm(q);
+		};
+	}
 }
 
 window.onload = belt;

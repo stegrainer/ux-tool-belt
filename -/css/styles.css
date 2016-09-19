@@ -50,9 +50,11 @@ a:hover, a:focus {
 	transition: all 0.25s ease-in-out;
 	width: 100%; }
 .secondary {
-	background: rgba(255,255,255,0.05); }
+	background: rgba(255,255,255,0.05);
+	text-shadow: none; }
 .button:hover, .button:focus, button:hover, button:focus {
-	background: #336; }
+	background: #336;
+	color: #fff; }
 
 /* Content */
 
@@ -73,13 +75,13 @@ header img {
 	position: relative;
 	top: 0.75em;
 	width: 50%; }
-header .wrap, main {
+.wrap, main {
 	margin: 0 auto;
 	width: 90%; }
 .intro {
 	columns: 2 200px;
 	column-gap: 2em;
-	column-rule: 1px solid #eee; }
+	column-rule: 1px solid #d5d5d5; }
 .intro p {
 	color: #666;
 	font-size: 65%; }
@@ -103,7 +105,7 @@ header .wrap, main {
 	border-color: #1f73ae; }
 .tb:empty:before {
 	color: rgba(255,255,255,0.67);
-	content: 'Your tool belt is empty. Add tools below.';
+	content: 'Your tool belt is empty! Arm yourself below.';
 	display: block;
 	margin: 0 5%;
 	padding: 1.5em 0;
@@ -213,8 +215,8 @@ header .wrap, main {
 footer {
 	background: #336;
 	color: rgba(255,255,255,0.33);
-	padding: 0.75em;
-	text-align: center; }
+	font-size: 75%;
+	padding: 0.75em; }
 footer a, footer a {
 	color: #fff !important;
 	opacity: 0.33; }
@@ -229,8 +231,10 @@ footer a:hover, footer a:focus {
 @media screen and (min-width: 40em) {
 	html, body { height: 100%; }
 	.page { min-height: 100%; }
-	header .wrap, main { width: 80%; }
+	.wrap, main { width: 80%; }
 	main { padding-bottom: 8em; }
 	.card { max-width: 40rem; width: 60%; }
 	footer { bottom: 0; left: 0; position: absolute; width: 100%; }
+	footer .wrap > div { float: left; width: 48%; }
+	.license { margin: 0 0 0 4%; text-align: right; }
 }

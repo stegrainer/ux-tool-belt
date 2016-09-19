@@ -68,7 +68,7 @@
 	},
 	{
 		"index": 4,
-		"name": "Animated Prototype",
+		"name": "Animated Prototypes",
 		"description": "Animated prototypes help you convey motion, transitions, and interactions more explicitly, giving a more final vision of the feel for your website or app.",
 		"links": [
 			{
@@ -112,7 +112,7 @@
 	},
 	{
 		"index": 6,
-		"name": "Code Prototype",
+		"name": "Code Prototypes",
 		"description": "Coding your prototypes can be helpful for testing not just whether a design concept resonates with users, but whether it&rsquo;s technically feasible and how it works on different devices.",
 		"links": [
 			{
@@ -179,7 +179,7 @@
 	{
 		"index": 9,
 		"name": "Design Studio",
-		"description": "Design studios happen when you bring together a motley crew from across your team or company, give them an interesting problem to solve, and a very short span of time to come up with as many visual ideas as possible. By quickly sketching out many ideas, critiquing them briefly, then diverging for more ideation, you can come up with many different solutions to a problem to kickstart the creative process.",
+		"description": "Convene a team with diverse viewpoints, give them an interesting problem to solve, and a short span of time to explore as many visual ideas as possible. By briefly sketching out many ideas, critiquing them, then diverging for more ideation, you can come up with many different potential solutions to kickstart the creative process.",
 		"links": [
 			{
 				"title": "Design Studio Workshop: Adding Up the Benefits",
@@ -335,7 +335,7 @@
 	},
 	{
 		"index": 16,
-		"name": "Heatmap",
+		"name": "Heatmaps",
 		"description": "Heatmaps help you quickly understand what attracts your users&rsquo; attention on your website or app by turning data into a visual overlay that can illuminate what parts get the most clicks or other interaction.",
 		"links": [
 			{
@@ -381,7 +381,7 @@
 	},
 	{
 		"index": 18,
-		"name": "High-Fidelity Prototype",
+		"name": "High-Fidelity Prototypes",
 		"description": "A high fidelity prototype gives a close facsimile of the production version. It can feel real to users you test with, many clients or stakeholders are more comfortable with it, and it can serve as a starting point for developers to build from.",
 		"links": [
 			{
@@ -447,7 +447,7 @@
 	},
 	{
 		"index": 21,
-		"name": "Low-Fidelity Prototype",
+		"name": "Low-Fidelity Prototypes",
 		"description": "Get your ideas out of your head and in front of potential users more quickly with low-fidelity prototypes. The lower the fidelity, the more quickly you can test and iterate over new versions.",
 		"links": [
 			{
@@ -514,7 +514,7 @@
 	},
 	{
 		"index": 24,
-		"name": "Mockup",
+		"name": "Mockups",
 		"description": "Mockups are used to communicate design details like color, typography, iconography, graphics, and other visual embellishments beyond the basic layout and structure. They represent a static vision of the production website or app, and can be used to create high-fidelity prototypes.",
 		"links": [
 			{
@@ -536,7 +536,7 @@
 	},
 	{
 		"index": 25,
-		"name": "Mood Board",
+		"name": "Mood Boards",
 		"description": "By pulling design inspiration from existing design elements, mood boards help you define a visual design direction and language early in your project.",
 		"links": [
 			{
@@ -558,7 +558,7 @@
 	},
 	{
 		"index": 26,
-		"name": "Paper Prototype",
+		"name": "Paper Prototypes",
 		"description": "With paper prototypes, you can make interactive testable interfaces from your sketches with paper and pencil. Paper prototypes enable really fast iteration and testing.",
 		"links": [
 			{
@@ -602,7 +602,7 @@
 	},
 	{
 		"index": 28,
-		"name": "Persona",
+		"name": "Personas",
 		"description": "A persona is a representative sample type of user that helps your team understand and empathize with the needs and problems of a real set of users. The best personas are built from research with real users and are used throughout the design process.",
 		"links": [
 			{
@@ -670,7 +670,7 @@
 	},
 	{
 		"index": 31,
-		"name": "Scenario",
+		"name": "Scenarios",
 		"description": "A scenario tells the story of how a specific persona might solve a problem or achieve a goal using your product in their own context. Scenarios help tell the story of why and how the user interacts with your product without focusing on interface details.",
 		"links": [
 			{
@@ -715,7 +715,7 @@
 	},
 	{
 		"index": 33,
-		"name": "Sketch",
+		"name": "Sketching",
 		"description": "Get your ideas out quickly using plain old pencil and paper (or marker and whiteboard). Sketching is the quickest way to think through a concept and put it in front of your team or others.",
 		"links": [
 			{
@@ -737,7 +737,7 @@
 	},
 	{
 		"index": 34,
-		"name": "Storyboard",
+		"name": "Storyboards",
 		"description": "Scenarios are to short stories what storyboards are to comics. A storyboard gives a visual context to your scenarios, showing the user&rsquo;s emotions, environment, and activities more succinctly.",
 		"links": [
 			{
@@ -803,7 +803,7 @@
 	},
 	{
 		"index": 37,
-		"name": "Style Tile",
+		"name": "Style Tiles",
 		"description": "Style tiles communicate the essential foundation of a visual brand without conveying specific page layouts. They can spur discussion around visual direction without focusing too much on page-level details early on.",
 		"links": [
 			{
@@ -825,7 +825,7 @@
 	},
 	{
 		"index": 38,
-		"name": "Survey",
+		"name": "Surveys",
 		"description": "There&rsquo;s nothing better than a survey if you want to get answers to specific questions from a lot of people quickly. Used sparingly, with well-written questions and targeted audiences, surveys can kickstart deep research efforts or build better understanding of the broader audience.",
 		"links": [
 			{
@@ -848,7 +848,7 @@
 	},
 	{
 		"index": 39,
-		"name": "User Flow",
+		"name": "User Flows",
 		"description": "A user flow depicts the step-by-step process of completing a specific task through the screens of your website or app.",
 		"links": [
 			{
@@ -870,7 +870,7 @@
 	},
 	{
 		"index": 40,
-		"name": "Wireframe",
+		"name": "Wireframes",
 		"description": "Wireframes are a lot like blueprints for your pages. They tell you what content will be available, how it&rsquo;s grouped, and where it&rsquo;s laid out without diving deep into visual details like colors, typography, or graphics.",
 		"links": [
 			{

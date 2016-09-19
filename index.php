@@ -7,6 +7,20 @@
 	if($_REQUEST['clear'] == 1) {
 		clearBelt();
 	}
+	if($_REQUEST['print'] == 1) {
+		$printView = 1;
+	}
+	if($_SESSION['visited']) {
+		if($_REQUEST['newbie']) {
+			$newbie = true;
+			$_SESSION['visited'] = true;
+		} else {
+			$newbie = false;
+		}
+	} else {
+		$newbie = true;
+		$_SESSION['visited'] = true;
+	}
 ?>
 
 <!DOCTYPE html>
@@ -15,33 +29,48 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width; initial-scale=1.0">
 	<title>The UX Tool Belt</title>
+	<? if($printView): ?>
+	<link rel="stylesheet" href="-/css/print.css">
+	<? else: ?>
 	<link rel="stylesheet" href="-/css/styles.css">
+	<? endif; ?>
 </head>
-
 <body>
+<? if($printView): ?>
+	<? include '-/inc/print.php' ?>
+<? else: ?>
 	<div class="page">
 		<header role="banner">
 			<div class="wrap">
 				<div id="logo" class="img"></div>
 				<h1>The UX Tool Belt</h1>
+			<? if($newbie) : ?>
 				<div class="intro">
 					<p>
-						There&rsquo;s a lot more to User Experience design than just mockups
-						and prototypes. The Tool Shed below has a compilation of the many
-						tools and techniques available to UX designers with documentation on
-						how to use them and where to find more details. You can use this to
-						document your overall process or to define your process for a
-						specific project.
+						<strong>There&rsquo;s more to User Experience Design than mockups
+						and prototypes.</strong> Compiled below are the time-honored tools
+						and techniques of our trade, passed on from generation to generation.
+						If you are unfamiliar with a technique, you can read a brief
+						description or follow links to learn more from experienced
+						professionals. Are there missing tools or techniques?
+						<a href="https://stegrainer.com/contact/">Let me know, and I&rsquo;ll
+						add them</a>!
 					</p>
 					<p>
-						The tools are organized by the Lean UX process framework: Think,
-						Make, Check. Think Tools help you research, understand your users,
-						and relate to their problem. Make Tools help you get to a testable
-						solution. Finally, Check Tools help you validate whether or not your
-						solution works for the customer. Some tools may be helpful in more
-						than one phase.
+						<strong>The tools are organized alphabetically within the Lean UX
+						framework of Think > Make > Check.</strong> During the Think phase,
+						you research and, well, think to better understand your users and
+						the problems you are trying to solve to come up with hypotheses to
+						test. Then you Make the quickest representation of a potential
+						solution you can. Finally, you Check the solution against your
+						hypotheses and learn from it.
 					</p>
 				</div>
+			<? else: ?>
+				<p style="text-align: center;">
+					<a href="?newbie=1">There&rsquo;s more to UX than mockups and prototypes.</a>
+				</p>
+			<? endif; ?>
 			</div>
 			<div class="project">
 				<div class="wrap">
@@ -88,15 +117,22 @@
 			</div>
 		</main>
 		<footer>
-			<a href="http://uxcellence.com">A UXcellence Project</a> &#x25cf;
-			<a href="https://stegrainer.com/contact/">I welcome your feedback</a><br />
-			<a href="https://stegrainer.com">Made with care by Ste Grainer.</a><br />
-			&copy; 2016
+			<div class="wrap">
+				<div class="info">
+					<a href="http://uxcellence.com">A UXcellence Project</a><br />
+					<a href="https://stegrainer.com/contact/?subject=My%20Thoughts%20on%20the%20UX%20Tool%20Belt">I welcome your feedback</a><br />
+					<a href="https://stegrainer.com">Made with care by Ste Grainer.</a>
+				</div>
+				<div class="license">
+					<span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">The UX Tool Belt</span> by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Ste Grainer</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+				</div>
+			</div>
 		</footer>
 	</div>
 	<div class="modal" id="card">
 	<? include '-/inc/card.php' ?>
 	</div>
-<script type="text/javascript" src="-/js/scripts.js"></script>
+	<script type="text/javascript" src="-/js/scripts.js"></script>
+<? endif; ?>
 </body>
 </html>

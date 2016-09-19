@@ -22,10 +22,13 @@
 	margin-left: 3em; }
 .card li {
 	margin: 0; }
-.card form {
+.card-actions {
 	background: #eee;
 	border-top: 1px solid #ddd;
 	text-align: center; }
+.card-actions form {
+	margin: 0;
+	padding: 0 0 0.75em; }
 .field {
 	float: left;
 	margin: 0;
@@ -34,8 +37,4 @@
 	margin-right: 4%; }
 .remove {
 	color: #c00;
-	display: block;
-	margin: 0;
-	padding: 0 0 0.75em; }
-.card button {
-	background: #39c; }
+	margin: 0; }

@@ -41,7 +41,7 @@
 	<div class="cost">$<?= $total['cost'] ?></div>
 </div>
 <div class="actions">
-	<form action="./" method="post">
+	<form action="./" method="get">
 		<input type="hidden" name="print" value="1">
 		<button type="submit">Print this project</button>
 	</form>
