@@ -1,7 +1,7 @@
 {
   "name": "ux-tool-belt",
   "version": "0.0.1",
-  "description": "A web-based tool for learning UX tools and building a UX process",
+  "description": "A web-based app for learning UX tools and building a UX process",
   "main": "Gruntfile.js",
   "repository": {
     "type": "git",
