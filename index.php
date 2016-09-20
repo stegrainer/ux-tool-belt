@@ -43,9 +43,9 @@
 
 	
 	<? if($printView): ?>
-	<link rel="stylesheet" href="-/css/print.css">
+	<link rel="stylesheet" href="-/css/print.min.css">
 	<? else: ?>
-	<link rel="stylesheet" href="-/css/styles.css">
+	<link rel="stylesheet" href="-/css/styles.min.css">
 	<? endif; ?>
 </head>
 <body>
@@ -145,7 +145,7 @@
 	<div class="modal" id="card">
 	<? include '-/inc/card.php' ?>
 	</div>
-	<script type="text/javascript" src="-/js/scripts.js"></script>
+	<script type="text/javascript" src="-/js/scripts.min.js"></script>
 <? endif; ?>
 	<link rel="preload" href="https://fonts.googleapis.com/css?family=Raleway:400,900" as "style" onload="this.rel='stylesheet'">
 	<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,900"></noscript>

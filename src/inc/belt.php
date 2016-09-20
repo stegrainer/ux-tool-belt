@@ -20,7 +20,7 @@
 ?>
 
 <? if(is_array($belt)): ?>
-<link rel="stylesheet" href="-/css/belt.min.css">
+<link rel="stylesheet" href="-/css/belt.css">
 <ul class="tb">
 	<li class="head">
 		<div class="name">Tool</div>

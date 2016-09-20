@@ -1,0 +1,17 @@
+{
+  "name": "ux-tool-belt",
+  "version": "0.0.1",
+  "description": "A web-based tool for learning UX tools and building a UX process",
+  "main": "Gruntfile.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://stegrainer@bitbucket.org/stegrainer/a10k.git"
+  },
+  "author": "Ste Grainer",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-cssmin": "^1.0.2",
+    "grunt-contrib-htmlmin": "^2.0.0",
+    "grunt-contrib-uglify": "^2.0.0"
+  }
+}
