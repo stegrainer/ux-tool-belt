@@ -134,7 +134,7 @@
 	},
 	{
 		"index": 7,
-		"name": "Content Inventory &amp; Audit",
+		"name": "Content Inventory &amp; Audits",
 		"description": "By cataloging the contents of a website or app, your content inventory tells you what content exists, where it can be found, who maintains it, and more. From your inventory, you can run a content audit to determine what stays, what goes, and what needs to be updated.",
 		"links": [
 			{
@@ -156,7 +156,7 @@
 	},
 	{
 		"index": 8,
-		"name": "Design Critique",
+		"name": "Design Critiques",
 		"description": "Well-run design critiques can uncover problems, smooth rough edges, and identify future opportunities even before running a concept by users. By focusing on whether the design solves a given problem rather than subjective elements, critiques drive a design toward the best possible solution.",
 		"links": [
 			{
@@ -178,7 +178,7 @@
 	},
 	{
 		"index": 9,
-		"name": "Design Studio",
+		"name": "Design Studios",
 		"description": "Convene a team with diverse viewpoints, give them an interesting problem to solve, and a short span of time to explore as many visual ideas as possible. By briefly sketching out many ideas, critiquing them, then diverging for more ideation, you can come up with many different potential solutions to kickstart the creative process.",
 		"links": [
 			{
@@ -200,7 +200,7 @@
 	},
 	{
 		"index": 10,
-		"name": "Diary Study",
+		"name": "Diary Studies",
 		"description": "Your users don&rsquo;t exist in a specific moment in time and neither do the problems that necessitate your products. Diary studies help you understand behavior and patterns over longer periods of time, give deeper insight into the customer journey, and help better illuminate user habits.",
 		"links": [
 			{
@@ -245,7 +245,7 @@
 	},
 	{
 		"index": 12,
-		"name": "Element Collage",
+		"name": "Element Collages",
 		"description": "The element collage is more specific than style tiles or mood boards, but less tied together than mockups or prototypes. With an element collage, you can design individual components and styles irrespective of their place in the final screen.",
 		"links": [
 			{
@@ -290,7 +290,7 @@
 	},
 	{
 		"index": 14,
-		"name": "Focus Group",
+		"name": "Focus Groups",
 		"description": "Running concepts past a focus group can be a quick way to get quick reactions from a diverse group of people. Focus groups are great for testing reactions, perceptions, and the potential value, and not very good for observational discovery or testing usability.",
 		"links": [
 			{
@@ -359,7 +359,7 @@
 	},
 	{
 		"index": 17,
-		"name": "Heuristic Evaluation",
+		"name": "Heuristic Evaluations",
 		"description": "Have an expert (or better, a set of experts) review your app or website against a set of broad principles to identify potential problems and gauge their severity.",
 		"links": [
 			{
@@ -403,7 +403,7 @@
 	},
 	{
 		"index": 19,
-		"name": "Journey Map",
+		"name": "Journey Maps",
 		"description": "Journey Maps document a user&rsquo;s experience across multiple touchpoints, from their discovery of the product or service (or even before) to their full engagement with it, including emotional impact. They tell the story of how a user engages with your product over time.",
 		"links": [
 			{
@@ -492,7 +492,7 @@
 	},
 	{
 		"index": 23,
-		"name": "Mental Model",
+		"name": "Mental Models",
 		"description": "Mental models are representations of how people think a process or product works. The closer a designer&rsquo;s mental model matches the user&rsquo;s, the more likely it is that the design will work the way a user expects.",
 		"links": [
 			{
@@ -580,7 +580,7 @@
 	},
 	{
 		"index": 27,
-		"name": "Pattern Library",
+		"name": "Pattern Libraries",
 		"description": "Collect common UI components and elements with reusable code, context, and more in your pattern library. Using a pattern library can help tremendously with consistency and make your product easier to maintain, build on, and scale.",
 		"links": [
 			{
@@ -692,7 +692,7 @@
 	},
 	{
 		"index": 32,
-		"name": "Sitemap",
+		"name": "Sitemaps",
 		"description": "Your sitemap defines the list of pages, screens, or sections for your site or app. It is often a hierarchical linked and nested list.",
 		"links": [
 			{
@@ -781,7 +781,7 @@
 	},
 	{
 		"index": 36,
-		"name": "Style Guide",
+		"name": "Style Guides",
 		"description": "A good style guide defines the essential reusable reference bits of your product, from visual styles like colors, typography, and graphics to the components of a pattern library. Great style guides also encapsulate written style guides, branding guidelines, and even API/code documentation.",
 		"links": [
 			{

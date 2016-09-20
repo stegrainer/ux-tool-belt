@@ -41,8 +41,8 @@
 			</ul>
 			<? endif; ?>
 		<? else: ?>
-			<p>
-				<a href="?<?=$_SERVER['QUERY_STRING']?>&amp;expand=1">Read more about this</a>
+			<p class="readmore">
+				<a href="?<?=$_SERVER['QUERY_STRING']?>&amp;expand=1">Read more about <?= $card->name ?></a>
 			</p>
 		<? endif; ?>
 			<div class="card-actions">

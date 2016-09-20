@@ -21,6 +21,7 @@
 		$newbie = true;
 		$_SESSION['visited'] = true;
 	}
+	$uri = strtok($_SERVER["REQUEST_URI"],'?');
 ?>
 
 <!DOCTYPE html>
@@ -29,6 +30,18 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width; initial-scale=1.0">
 	<title>The UX Tool Belt</title>
+	<link rel="shortcut icon" href="-/img/favicon.ico" type="image/x-icon" />
+	<link rel="apple-touch-icon" sizes="180x180" href="-/img/apple-icon.png">
+	<link rel="icon" type="image/png" href="-/img/android-icon.png" sizes="192x192">
+	<meta name="twitter:title" property="og:title" content="The UX Tool Belt">
+	<meta name="description" content="There's more to User Experience Design than mockups and prototypes.">
+	<meta name="twitter:description" property="og:description" content="There's more to User Experience Design than mockups and prototypes.">
+
+	<meta name="twitter:image" property="og:image" content="<?= "http://$_SERVER[HTTP_HOST]$uri" ?>-/img/logo-social.png">
+	<meta name="twitter:url" property="og:url" content="<?= "http://$_SERVER[HTTP_HOST]$uri" ?>">
+	<meta name="twitter:card" content="summary_large_image">
+
+	
 	<? if($printView): ?>
 	<link rel="stylesheet" href="-/css/print.css">
 	<? else: ?>
@@ -67,7 +80,7 @@
 					</p>
 				</div>
 			<? else: ?>
-				<p style="text-align: center;">
+				<p class="readmore">
 					<a href="?newbie=1">There&rsquo;s more to UX than mockups and prototypes.</a>
 				</p>
 			<? endif; ?>
@@ -119,7 +132,7 @@
 		<footer>
 			<div class="wrap">
 				<div class="info">
-					<a href="http://uxcellence.com">A UXcellence Project</a><br />
+					<a href="http://uxcellence.com">A UXcellence project</a><br />
 					<a href="https://stegrainer.com/contact/?subject=My%20Thoughts%20on%20the%20UX%20Tool%20Belt">I welcome your feedback</a><br />
 					<a href="https://stegrainer.com">Made with care by Ste Grainer.</a>
 				</div>
@@ -132,6 +145,7 @@
 	<div class="modal" id="card">
 	<? include '-/inc/card.php' ?>
 	</div>
+	<link href="https://fonts.googleapis.com/css?family=Raleway:400,900" rel="stylesheet">
 	<script type="text/javascript" src="-/js/scripts.js"></script>
 <? endif; ?>
 </body>
