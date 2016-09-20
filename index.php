@@ -76,7 +76,7 @@
 						the problems you are trying to solve to come up with hypotheses to
 						test. Then you Make the quickest representation of a potential
 						solution you can. Finally, you Check the solution against your
-						hypotheses and learn from it.
+						hypotheses and learn.
 					</p>
 				</div>
 			<? else: ?>
@@ -145,8 +145,9 @@
 	<div class="modal" id="card">
 	<? include '-/inc/card.php' ?>
 	</div>
-	<link href="https://fonts.googleapis.com/css?family=Raleway:400,900" rel="stylesheet">
 	<script type="text/javascript" src="-/js/scripts.js"></script>
 <? endif; ?>
+	<link rel="preload" href="https://fonts.googleapis.com/css?family=Raleway:400,900" as "style" onload="this.rel='stylesheet'">
+	<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,900"></noscript>
 </body>
 </html>
