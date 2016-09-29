@@ -147,7 +147,7 @@
 	</div>
 	<script type="text/javascript" src="-/js/scripts.min.js"></script>
 <? endif; ?>
-	<link rel="preload" href="https://fonts.googleapis.com/css?family=Raleway:400,900" as "style" onload="this.rel='stylesheet'">
+	<link rel="preload" href="https://fonts.googleapis.com/css?family=Raleway:400,900" as "style">
 	<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,900"></noscript>
 </body>
 </html>

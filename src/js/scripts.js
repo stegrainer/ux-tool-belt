@@ -45,7 +45,10 @@ function belt() {
 			this.form.submit();
 		}
 	};
-	
+
+	var webfont = document.querySelector("[rel='preload']");
+	webfont.rel = 'stylesheet';	
+
 	var clrLinks = document.getElementsByClassName('warn');
 	for(var i=0; i<clrLinks.length; i++) {
 		clrLinks[i].onclick = function() {
