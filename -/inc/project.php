@@ -12,6 +12,6 @@
 
 <form action="./" method="post">
 	<input type="text" name="project" id="project" value="<?= $_SESSION['project'] ?>"
-		<? if(!empty($_SESSION['project'])) : ?>class="named"<? endif; ?>>
+		<? if(!empty($_SESSION['project'])) : ?>class="named"<? endif; ?> <? if($_REQUEST['tool']): ?>tabindex="-1"<? endif; ?>>
 	<label for="project">What&rsquo;s your project name?</label>
 </form>

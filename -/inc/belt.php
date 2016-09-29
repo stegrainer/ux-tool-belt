@@ -28,7 +28,7 @@
 		<div class="cost">Cost</div>
 	</li>
 <? foreach($belt as $b): ?>
-	<li><a href="?tool=<?= $b['id'] ?>&time=<?= $b['time'] ?>&cost=<?= $b['cost'] ?>">
+	<li><a href="?tool=<?= $b['id'] ?>&time=<?= $b['time'] ?>&cost=<?= $b['cost'] ?>" <? if($_REQUEST['tool']): ?>tabindex="-1"<? endif; ?>>
 		<div class="name"><?= $b['tool']->name ?></div>
 		<div class="time"><?= $b['time'] ?></div>
 		<div class="cost">$<?= $b['cost'] ?></div>

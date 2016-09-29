@@ -81,7 +81,7 @@
 				</div>
 			<? else: ?>
 				<p class="readmore">
-					<a href="?newbie=1">There&rsquo;s more to UX than mockups and prototypes.</a>
+					<a href="?newbie=1" <? if($_REQUEST['tool']): ?>tabindex="-1"<? endif; ?>>There&rsquo;s more to UX than mockups and prototypes.</a>
 				</p>
 			<? endif; ?>
 			</div>
@@ -103,27 +103,27 @@
 				<input type="radio" name="tab" id="think" checked>
 				<input type="radio" name="tab" id="make">
 				<input type="radio" name="tab" id="check">
-				<label for="think" tabindex="1">Think</label>
-				<label for="make" tabindex="2">Make</label>
-				<label for="check" tabindex="3">Check</label>
+				<label for="think" <? if($_REQUEST['tool']): ?>tabindex="-1"<? else: ?>tabindex="1"<? endif; ?>>Think</label>
+				<label for="make" <? if($_REQUEST['tool']): ?>tabindex="-1"<? else: ?>tabindex="2"<? endif; ?>>Make</label>
+				<label for="check" <? if($_REQUEST['tool']): ?>tabindex="-1"<? else: ?>tabindex="3"<? endif; ?>>Check</label>
 				<section>
 					<ul class="tools">
 					<? foreach($phases['think'] as $tool): ?>
-						<li><a href="?tool=<?= $tool->index ?>"><p><?= $tool->name ?></p></a></li>
+						<li><a href="?tool=<?= $tool->index ?>" <? if($_REQUEST['tool']): ?>tabindex="-1"<? endif; ?>><p><?= $tool->name ?></p></a></li>
 					<? endforeach; ?>
 					</ul>
 				</section>
 				<section>
 					<ul class="tools">
 					<? foreach($phases['make'] as $tool): ?>
-						<li><a href="?tool=<?= $tool->index ?>"><p><?= $tool->name ?></p></a></li>
+						<li><a href="?tool=<?= $tool->index ?>" <? if($_REQUEST['tool']): ?>tabindex="-1"<? endif; ?>><p><?= $tool->name ?></p></a></li>
 					<? endforeach; ?>
 					</ul>
 				</section>
 				<section>
 					<ul class="tools">
 					<? foreach($phases['check'] as $tool): ?>
-						<li><a href="?tool=<?= $tool->index ?>"><p><?= $tool->name ?></p></a></li>
+						<li><a href="?tool=<?= $tool->index ?>" <? if($_REQUEST['tool']): ?>tabindex="-1"<? endif; ?>><p><?= $tool->name ?></p></a></li>
 					<? endforeach; ?>
 					</ul>
 				</section>
@@ -132,12 +132,12 @@
 		<footer>
 			<div class="wrap">
 				<div class="info">
-					<a href="http://uxcellence.com">A UXcellence project</a><br />
-					<a href="https://stegrainer.com/contact/?subject=My%20Thoughts%20on%20the%20UX%20Tool%20Belt">I welcome your feedback</a><br />
-					<a href="https://stegrainer.com">Made with care by Ste Grainer.</a>
+					<a href="http://uxcellence.com" <? if($_REQUEST['tool']): ?>tabindex="-1"<? endif; ?>>A UXcellence project</a><br />
+					<a href="https://stegrainer.com/contact/?subject=My%20Thoughts%20on%20the%20UX%20Tool%20Belt" <? if($_REQUEST['tool']): ?>tabindex="-1"<? endif; ?>>I welcome your feedback</a><br />
+					<a href="https://stegrainer.com" <? if($_REQUEST['tool']): ?>tabindex="-1"<? endif; ?>>Made with care by Ste Grainer.</a>
 				</div>
 				<div class="license">
-					<span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">The UX Tool Belt</span> by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Ste Grainer</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+					<span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">The UX Tool Belt</span> by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Ste Grainer</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" <? if($_REQUEST['tool']): ?>tabindex="-1"<? endif; ?>>Creative Commons Attribution-ShareAlike 4.0 International License</a>.
 				</div>
 			</div>
 		</footer>

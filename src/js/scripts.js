@@ -60,6 +60,15 @@ function belt() {
 			return confirm(q);
 		};
 	}
+	
+	var checkEsc = function(e) {
+		var closeLink = document.querySelector(".overlay a");
+		if((e.keyCode == '27') && (closeLink !== null)) {
+			window.location.href = closeLink.href;
+		}
+	}
+
+	window.addEventListener("keyup", checkEsc, false);
 }
 
 window.onload = belt;

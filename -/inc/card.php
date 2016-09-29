@@ -25,7 +25,7 @@
 	<? if(is_object($card)): ?>
 	<link rel="stylesheet" href="-/css/card.min.css">
 	<div class="modal-shown">
-		<div class="overlay"><a href="./"></a></div>
+		<div class="overlay"><a href="./" title="Close this card" tabindex="1"></a></div>
 		<div class="card">
 			<h2><?= $card->name ?></h2>
 		<? if(!inBelt($card->index) || ($expand)): ?>
@@ -36,7 +36,7 @@
 			<h4>Learn more:</h4>
 			<ul>
 			<? foreach($card->links as $link): ?>
-				<li><a href="<?= $link->url ?>" tabindex="1"><?= $link->title ?></a></li>
+				<li><a href="<?= $link->url ?>" tabindex="2"><?= $link->title ?></a></li>
 			<? endforeach; ?>
 			</ul>
 			<? endif; ?>
